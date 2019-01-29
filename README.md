@@ -1,6 +1,6 @@
 # Liza's Portfolio 👠
-
 [![View Application](https://img.shields.io/badge/view-application-blue.svg)](https://lizafloyd.github.io/portfolio-site/) [![CircleCI Build Status](https://img.shields.io/circleci/project/github/LizaFloyd/portfolio_site/master.svg)](https://circleci.com/gh/LizaFloyd/portfolio_site/tree/master)
+
 Version 2 of Liza Floyd's portfolio site built with React.
 
 ## Installation Steps 💽
