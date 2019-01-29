@@ -10,12 +10,18 @@ jobs:
             - v1-dependencies-{{ checksum "./package.json" }}
             - v1-dependencies-
       - run:
+          name: Installing Dependencies
           command: yarn install
+            - v1-dependencies-
+      - run:
+          name: Linting build
+          command: yarn lint
       - save_cache:
           paths:
             - ~/node_modules
           key: v1-dependencies-{{ checksum "./package.json" }}
       - run:
+          name: Testing build
           command: yarn test
     branches:
       ignore: gh-pages
