@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import logo from '../assets/logo.svg';
 import './App.css';
 
+/**
+ * Renders the main App components.
+ */
 class App extends Component {
+  /** Renders the App component.
+   * @returns {string} - Returns JSX representation of the App component.
+   */
   render() {
     return (
       <div className="App">
