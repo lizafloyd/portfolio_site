@@ -26,6 +26,26 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        Grid Example Below:
+
+        <div className="wrapper">
+          <div className="row">
+            <div className="extra-small-6">
+              hello!
+            </div>
+            <div className="extra-small-6">
+              extra small 6!
+            </div>
+
+            <div className="small-6 extra-small-12">
+              hello!
+            </div>
+            <div className="small-6 extra-small-12">
+              small 6!
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
