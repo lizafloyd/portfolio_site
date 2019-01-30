@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 /** Renders an inline SVG of the LinkedIn logo.
  * @param {object} props - The component props.
- * @returns {string} - Returns the JSX representation of the LinkedIn logo.
+ * @returns {string} - Returns a JSX representation of the LinkedIn logo.
  */
 const LinkedIn = (props) => (
   <svg

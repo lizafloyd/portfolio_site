@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import logo from '../assets/logo.svg';
 import './App.css';
+import LinkedIn from './icons/LinkedIn';
+import Github from './icons/Github';
+import Twitter from './icons/Twitter';
+import StackOverflow from './icons/StackOverflow';
 
 /**
  * Renders the main App components.
@@ -25,6 +29,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <LinkedIn /> <Github /> <StackOverflow /> <Twitter />
         </header>
         Grid Example Below:
         <div className="wrapper">
