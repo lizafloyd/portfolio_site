@@ -11,8 +11,7 @@ jobs:
             - v1-dependencies-
       - run:
           name: Installing Dependencies
-          command: yarn add
-            - v1-dependencies-
+          command: yarn install
       - run:
           name: Linting build
           command: yarn lint
