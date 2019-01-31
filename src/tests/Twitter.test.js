@@ -1,5 +1,5 @@
 import React from 'react';
-import Twitter from '../components/icons/Twitter';
+import TwitterIcon from '../components/icons/TwitterIcon';
 import {shallow} from 'enzyme';
 
 describe('Twitter Icon', () => {
@@ -10,7 +10,7 @@ describe('Twitter Icon', () => {
       fill: '#bbabab',
     };
 
-    const component = shallow(<Twitter {...props} />);
+    const component = shallow(<TwitterIcon {...props} />);
 
     expect(component.find('svg').prop('fill')).toBe('#bbabab');
     expect(component.find('svg').prop('height')).toBe('80px');
@@ -18,7 +18,7 @@ describe('Twitter Icon', () => {
   });
 
   it('correctly assigns default props when none are provided', () => {
-    const component = shallow(<Twitter />);
+    const component = shallow(<TwitterIcon />);
 
     expect(component.find('svg').prop('fill')).toBe('#1da1f2');
     expect(component.find('svg').prop('height')).toBe('20px');
