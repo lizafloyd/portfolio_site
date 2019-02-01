@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logos/the_lily.png';
 import './App.css';
+import LinkedInIcon from './icons/LinkedInIcon';
+import GithubIcon from './icons/GithubIcon';
+import TwitterIcon from './icons/TwitterIcon';
+import StackOverflowIcon from './icons/StackOverflowIcon';
 
 /**
  * Renders the main App components.
@@ -13,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="The Lily Logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -25,6 +29,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <LinkedInIcon /> <GithubIcon /> <StackOverflowIcon /> <TwitterIcon />
         </header>
         Grid Example Below:
         <div className="wrapper">
