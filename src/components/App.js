@@ -28,6 +28,10 @@ class App extends Component {
         </header>
         Grid Example Below:
         <div className="wrapper">
+          This is Liza's Github username:{' '}
+          {process.env.REACT_APP_GITHUB_USERNAME}
+          This is Liza's Twitter username:{' '}
+          {process.env.REACT_APP_TWITTER_USERNAME}
           <div className="row">
             <div className="extra-small-6">hello!</div>
             <div className="extra-small-6">extra small 6!</div>
