@@ -1,5 +1,5 @@
 import React from 'react';
-import StackOverflowIcon from '../components/icons/StackOverflowIcon';
+import StackOverflowIcon from '../../components/icons/StackOverflowIcon';
 import {shallow} from 'enzyme';
 
 describe('StackOverflow Icon', () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkedInIcon from '../components/icons/LinkedInIcon';
+import LinkedInIcon from '../../components/icons/LinkedInIcon';
 import {shallow} from 'enzyme';
 
 describe('LinkedIn Icon', () => {

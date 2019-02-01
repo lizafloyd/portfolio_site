@@ -1,5 +1,5 @@
 import React from 'react';
-import TwitterIcon from '../components/icons/TwitterIcon';
+import TwitterIcon from '../../components/icons/TwitterIcon';
 import {shallow} from 'enzyme';
 
 describe('Twitter Icon', () => {
