@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
  * @param {object} props - The component props.
  * @returns {string} - Returns a JSX representation of the StackOverflow logo.
  */
-const StackOverflow = (props) => (
+const StackOverflowIcon = (props) => (
   <svg
     viewBox="0 0 16 16"
     xmlns="http://www.w3.org/2000/svg"
@@ -21,16 +21,16 @@ const StackOverflow = (props) => (
   </svg>
 );
 
-StackOverflow.propTypes = {
+StackOverflowIcon.propTypes = {
   height: PropTypes.string.isRequired,
   width: PropTypes.string.isRequired,
   fill: PropTypes.string.isRequired,
 };
 
-StackOverflow.defaultProps = {
+StackOverflowIcon.defaultProps = {
   height: '20px',
   width: '20px',
   fill: '#ffffff',
 };
 
-export default StackOverflow;
+export default StackOverflowIcon;

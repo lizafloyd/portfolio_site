@@ -1,5 +1,5 @@
 import React from 'react';
-import Github from '../components/icons/Github';
+import GithubIcon from '../components/icons/GithubIcon';
 import {shallow} from 'enzyme';
 
 describe('Github Icon', () => {
@@ -10,7 +10,7 @@ describe('Github Icon', () => {
       fill: '#ababab',
     };
 
-    const component = shallow(<Github {...props} />);
+    const component = shallow(<GithubIcon {...props} />);
 
     expect(component.find('svg').prop('fill')).toBe('#ababab');
     expect(component.find('svg').prop('height')).toBe('60px');
@@ -18,7 +18,7 @@ describe('Github Icon', () => {
   });
 
   it('correctly assigns default props when none are provided', () => {
-    const component = shallow(<Github />);
+    const component = shallow(<GithubIcon />);
 
     expect(component.find('svg').prop('fill')).toBe('#ffffff');
     expect(component.find('svg').prop('height')).toBe('20px');

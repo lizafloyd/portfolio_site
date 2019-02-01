@@ -1,8 +1,8 @@
 import React from 'react';
-import LinkedIn from '../components/icons/LinkedIn';
+import StackOverflowIcon from '../components/icons/StackOverflowIcon';
 import {shallow} from 'enzyme';
 
-describe('LinkedIn Icon', () => {
+describe('StackOverflow Icon', () => {
   it('correctly changes the colour and size', () => {
     const props = {
       height: '80px',
@@ -10,7 +10,7 @@ describe('LinkedIn Icon', () => {
       fill: '#bbabab',
     };
 
-    const component = shallow(<LinkedIn {...props} />);
+    const component = shallow(<StackOverflowIcon {...props} />);
 
     expect(component.find('svg').prop('fill')).toBe('#bbabab');
     expect(component.find('svg').prop('height')).toBe('80px');
@@ -18,7 +18,7 @@ describe('LinkedIn Icon', () => {
   });
 
   it('correctly assigns default props when none are provided', () => {
-    const component = shallow(<LinkedIn />);
+    const component = shallow(<StackOverflowIcon />);
 
     expect(component.find('svg').prop('fill')).toBe('#ffffff');
     expect(component.find('svg').prop('height')).toBe('20px');

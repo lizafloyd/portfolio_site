@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
  * @param {object} props - The component props.
  * @returns {string} - Returns a JSX representation of the Twitter logo.
  */
-const Twitter = (props) => (
+const TwitterIcon = (props) => (
   <svg
     viewBox="0 0 16 16"
     xmlns="http://www.w3.org/2000/svg"
@@ -24,16 +24,16 @@ const Twitter = (props) => (
   </svg>
 );
 
-Twitter.propTypes = {
+TwitterIcon.propTypes = {
   height: PropTypes.string.isRequired,
   width: PropTypes.string.isRequired,
   fill: PropTypes.string.isRequired,
 };
 
-Twitter.defaultProps = {
+TwitterIcon.defaultProps = {
   height: '20px',
   width: '20px',
   fill: '#1da1f2',
 };
 
-export default Twitter;
+export default TwitterIcon;
