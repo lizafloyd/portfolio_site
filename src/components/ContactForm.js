@@ -111,9 +111,9 @@ class ContactForm extends Component {
           </div>
         </form>
 
-        {this.state.error ? (
+        {this.state.error && (
           <div className="extra-small-12 error">{this.state.error}</div>
-        ) : null}
+        )}
       </Fragment>
     );
   }
