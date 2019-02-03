@@ -2,7 +2,7 @@ import React from 'react';
 import TwitterIcon from '../../components/icons/TwitterIcon';
 import {shallow} from 'enzyme';
 
-describe('Twitter Icon', () => {
+describe('TwitterIcon', () => {
   it('correctly changes the colour and size', () => {
     const props = {
       height: '80px',

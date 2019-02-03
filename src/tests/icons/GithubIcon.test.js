@@ -2,7 +2,7 @@ import React from 'react';
 import GithubIcon from '../../components/icons/GithubIcon';
 import {shallow} from 'enzyme';
 
-describe('Github Icon', () => {
+describe('GithubIcon', () => {
   it('correctly changes the colour and size', () => {
     const props = {
       height: '60px',
