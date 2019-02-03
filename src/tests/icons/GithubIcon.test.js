@@ -1,5 +1,5 @@
 import React from 'react';
-import GithubIcon from '../components/icons/GithubIcon';
+import GithubIcon from '../../components/icons/GithubIcon';
 import {shallow} from 'enzyme';
 
 describe('Github Icon', () => {
