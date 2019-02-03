@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
-import {shallow} from 'enzyme';
+import {shallow, mount} from 'enzyme';
 
 describe('ContactForm', () => {
   it('correctly applies the state when setField is called', () => {
@@ -34,6 +34,24 @@ describe('ContactForm', () => {
     component.instance().handleFormSubmit({preventDefault: jest.fn()});
 
     expect(component.state().error).toBe('You must enter a message');
+  });
+
+  it('correctly submits the form if all of the fields are present', () => {
+    const component = mount(<ContactForm />);
+
+    component.instance().setField('email', process.env.REACT_APP_EMAIL_ADDRESS);
+    component.instance().setField('name', 'James');
+    component.instance().setField('message', 'Liza is the best');
+
+    // Mocks the form submit.
+    component.ref('form').submit = jest.fn();
+
+    // Spies on the form submit method so we can track if it has been called or not.
+    const submitSpy = jest.spyOn(component.ref('form'), 'submit');
+
+    component.instance().handleFormSubmit({preventDefault: jest.fn()});
+
+    expect(submitSpy).toHaveBeenCalled();
   });
 
   it('correctly sets the email address if included in the component props', () => {
