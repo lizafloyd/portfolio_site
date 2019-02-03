@@ -5,6 +5,7 @@ import LinkedInIcon from './icons/LinkedInIcon';
 import GithubIcon from './icons/GithubIcon';
 import TwitterIcon from './icons/TwitterIcon';
 import StackOverflowIcon from './icons/StackOverflowIcon';
+import ContactForm from './ContactForm';
 
 /**
  * Renders the main App components.
@@ -30,6 +31,7 @@ class App extends Component {
             Learn React
           </a>
           <LinkedInIcon /> <GithubIcon /> <StackOverflowIcon /> <TwitterIcon />
+          <ContactForm />
         </header>
         Grid Example Below:
         <div className="wrapper">
