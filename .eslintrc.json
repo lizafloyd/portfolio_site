@@ -10,7 +10,7 @@
     "workbox": true,
     "clients": true
   },
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["eslint:recommended", "prettier", "plugin:jsx-a11y/recommended"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "ecmaFeatures": {
@@ -18,7 +18,7 @@
     },
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "jsx-a11y"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "quotes": [
