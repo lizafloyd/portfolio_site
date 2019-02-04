@@ -1,11 +1,7 @@
-$title-font: 'Fredericka the Great', cursive;
-$text-font: 'Raleway', sans-serif;
-$subheader-font: 'Satisfy', cursive;
-
-
 .title {
   font-family: $title-font;
+  font-size: 4rem;
 }
-.subeheader {
-  font-family: $subheader-font;
+.subtitle {
+  font-family: $subtitle-font;
 }

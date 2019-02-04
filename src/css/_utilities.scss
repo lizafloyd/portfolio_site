@@ -13,3 +13,13 @@
   height: auto;
   display: block;
 }
+
+.container {
+  min-height: 100vh;
+  max-width: 70%;
+  margin: auto;
+}
+
+.align-center{
+  align-items: center;
+}
