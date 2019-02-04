@@ -1,8 +1,8 @@
 import React from 'react';
-import StackOverflowIcon from '../components/icons/StackOverflowIcon';
+import TwitterIcon from '../../components/icons/TwitterIcon';
 import {shallow} from 'enzyme';
 
-describe('StackOverflow Icon', () => {
+describe('TwitterIcon', () => {
   it('correctly changes the colour and size', () => {
     const props = {
       height: '80px',
@@ -10,7 +10,7 @@ describe('StackOverflow Icon', () => {
       fill: '#bbabab',
     };
 
-    const component = shallow(<StackOverflowIcon {...props} />);
+    const component = shallow(<TwitterIcon {...props} />);
 
     expect(component.find('svg').prop('fill')).toBe('#bbabab');
     expect(component.find('svg').prop('height')).toBe('80px');
@@ -18,9 +18,9 @@ describe('StackOverflow Icon', () => {
   });
 
   it('correctly assigns default props when none are provided', () => {
-    const component = shallow(<StackOverflowIcon />);
+    const component = shallow(<TwitterIcon />);
 
-    expect(component.find('svg').prop('fill')).toBe('#ffffff');
+    expect(component.find('svg').prop('fill')).toBe('#1da1f2');
     expect(component.find('svg').prop('height')).toBe('20px');
     expect(component.find('svg').prop('width')).toBe('20px');
   });

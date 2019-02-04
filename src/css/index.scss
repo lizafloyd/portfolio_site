@@ -20,6 +20,14 @@ body, h1, h2 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input, textarea, button {
+  margin-bottom: 15px;
+  padding: 5px 0 5px 0px;
+  width: 100%;
+  border-radius: 4px;
+  text-indent: 5px;
+}
+
 @import './utilities';
 @import './grid';
 @import './typography';

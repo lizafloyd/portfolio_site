@@ -1,8 +1,8 @@
 import React from 'react';
-import LinkedInIcon from '../components/icons/LinkedInIcon';
+import LinkedInIcon from '../../components/icons/LinkedInIcon';
 import {shallow} from 'enzyme';
 
-describe('LinkedIn Icon', () => {
+describe('LinkedInIcon', () => {
   it('correctly changes the colour and size', () => {
     const props = {
       height: '80px',
