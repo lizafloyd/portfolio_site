@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -18,8 +17,10 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.12.3",
     "gh-pages": "^1.0.0",
+    "node-sass": "^4.11.0",
     "prettier": "^1.15.3",
-    "react-test-renderer": "^15.6.2"
+    "react-test-renderer": "^15.6.2",
+    "sass-lint": "^1.12.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,7 +29,7 @@
     "eject": "react-scripts eject",
     "deploy": "yarn build && gh-pages -d build --repo git@github.com:LizaFloyd/portfolio_site.git",
     "format": "prettier --write './src/**/*.js'",
-    "lint": "eslint ./src --cache && prettier -l './src/**/*.js' './tests/**/*.js' || (echo need formatting, use yarn format ; exit 1)"
+    "lint": "eslint ./src --cache && sass-lint './src/css/*.scss' --no-exit -v && prettier -l './src/**/*.js' './tests/**/*.js' || (echo need formatting, use yarn format ; exit 1)"
   },
   "eslintConfig": {
     "extends": "react-app"
