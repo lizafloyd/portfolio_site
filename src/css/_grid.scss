@@ -4,13 +4,13 @@
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-right: -1rem;
   margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 .margin-horizontal {
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 //* Extra small devices
@@ -29,13 +29,13 @@
 .extra-small-12 {
   box-sizing: border-box;
   flex: 0 0 auto;
-  padding-right: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .extra-small {
-  flex-grow: 1;
   flex-basis: 0;
+  flex-grow: 1;
   max-width: 100%;
 }
 
@@ -116,13 +116,13 @@
   .small-12 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-right: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .small {
-    flex-grow: 1;
     flex-basis: 0;
+    flex-grow: 1;
     max-width: 100%;
   }
 

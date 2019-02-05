@@ -9,15 +9,13 @@
 
 //* Responsive Images
 .responsive-image {
-  width: 100%;
-  height: auto;
   display: block;
 }
 
 .container {
-  min-height: 100vh;
-  max-width: 70%;
   margin: auto;
+  max-width: 70%;
+  min-height: 100vh;
 }
 
 .align-center {

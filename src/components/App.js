@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, {Component, Fragment} from 'react';
 import Header from './Header';
 import WorkExperience from './WorkExperience';
 import FunFacts from './FunFacts';

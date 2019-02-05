@@ -1,13 +1,14 @@
-$gray: #DFDFDF;
-$gray-dark: #5B5B5B;
-$blue-light: #B3FDFF;
-$blue-dark: #0B01E3;
-$yellow: #FDFFB3;
+$gray: #dfdfdf;
+$gray-dark: #5b5b5b;
+$blue-light: #b3fdff;
+$blue-dark: #0b01e3;
+$yellow: #fdffb3;
+$white: #fff;
 
 .background-dark {
   background-color: $gray-dark;
 }
 
 .white {
-  color: white;
+  color: $white;
 }
