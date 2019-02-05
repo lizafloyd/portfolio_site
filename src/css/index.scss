@@ -1,6 +1,7 @@
 $title-font: 'Great Vibes', cursive;
 $text-font: 'Raleway', sans-serif;
 $subtitle-font: 'KoHo', sans-serif;
+$accent-font: 'Saira Extra Condensed', sans-serif;
 
 * {
   box-sizing: border-box;
@@ -33,3 +34,4 @@ button {
 @import './grid';
 @import './typography';
 @import './colors';
+@import './header';

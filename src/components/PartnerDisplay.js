@@ -4,7 +4,7 @@ import React from 'react';
  * @returns {string} - Returns JSX representation of the PartnerDisplay component.
  */
 const PartnerDisplay = () => (
-  <div className="background-dark">
+  <div className="background-dark border-bottom-red">
     <h2 className="white subtitle text-center">
       This is where partner icons will go.
     </h2>

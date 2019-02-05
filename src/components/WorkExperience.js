@@ -6,10 +6,10 @@ import placeholder from '../assets/images/placeholder.png';
  */
 const WorkExperience = () => (
   <div className="header row margin-horizontal">
-    <div className="header-image small-5">
+    <div className="small-5">
       <img src={placeholder} className="responsive-image" alt="Placeholder" />
     </div>
-    <div className="header-text small-7">
+    <div className="small-7">
       <h2 className="subtitle">Work Experience</h2>
       <p>Some details.</p>
     </div>

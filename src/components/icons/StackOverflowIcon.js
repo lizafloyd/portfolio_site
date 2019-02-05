@@ -30,7 +30,7 @@ StackOverflowIcon.propTypes = {
 StackOverflowIcon.defaultProps = {
   height: '20px',
   width: '20px',
-  fill: '#ffffff',
+  fill: '#5b5b5b',
 };
 
 export default StackOverflowIcon;

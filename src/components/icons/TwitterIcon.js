@@ -33,7 +33,7 @@ TwitterIcon.propTypes = {
 TwitterIcon.defaultProps = {
   height: '20px',
   width: '20px',
-  fill: '#1da1f2',
+  fill: '#5b5b5b',
 };
 
 export default TwitterIcon;
