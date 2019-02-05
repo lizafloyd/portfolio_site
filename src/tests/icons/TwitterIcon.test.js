@@ -20,7 +20,7 @@ describe('TwitterIcon', () => {
   it('correctly assigns default props when none are provided', () => {
     const component = shallow(<TwitterIcon />);
 
-    expect(component.find('svg').prop('fill')).toBe('#1da1f2');
+    expect(component.find('svg').prop('fill')).toBe('#5b5b5b');
     expect(component.find('svg').prop('height')).toBe('20px');
     expect(component.find('svg').prop('width')).toBe('20px');
   });
