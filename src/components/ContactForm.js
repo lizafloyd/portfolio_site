@@ -58,49 +58,51 @@ class ContactForm extends Component {
     return (
       <Fragment>
         <form
-          className="row"
+          className="row margin-horizontal"
           ref="form"
           action={`https://formspree.io/${email}`}
           method="POST"
         >
           <label htmlFor="name" className="small-2 extra-small-12">
             Name
+            <div className="small-10 extra-small-12">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name..."
+                value={this.state.data.name || ''}
+                onChange={(event) => this.setField('name', event.target.value)}
+              />
+            </div>
           </label>
-          <div className="small-10 extra-small-12">
-            <input
-              type="text"
-              name="name"
-              placeholder="Name..."
-              value={this.state.data.name || ''}
-              onChange={(event) => this.setField('name', event.target.value)}
-            />
-          </div>
-
           <label htmlFor="_replyto" className="small-2 extra-small-12">
             Email
+            <div className="small-10 extra-small-12">
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Email..."
+                value={this.state.data.email || ''}
+                onChange={(event) => this.setField('email', event.target.value)}
+              />
+            </div>
           </label>
-          <div className="small-10 extra-small-12">
-            <input
-              type="email"
-              name="_replyto"
-              placeholder="Email..."
-              value={this.state.data.email || ''}
-              onChange={(event) => this.setField('email', event.target.value)}
-            />
-          </div>
 
           <label htmlFor="message" className="small-2 extra-small-12">
             Message
+            <div className="small-10 extra-small-12">
+              <textarea
+                name="message"
+                placeholder="Message..."
+                rows="6"
+                value={this.state.data.message || ''}
+                onChange={(event) =>
+                  this.setField('message', event.target.value)
+                }
+              />
+            </div>
           </label>
-          <div className="small-10 extra-small-12">
-            <textarea
-              name="message"
-              placeholder="Message..."
-              rows="6"
-              value={this.state.data.message || ''}
-              onChange={(event) => this.setField('message', event.target.value)}
-            />
-          </div>
           <div className="small-10 small-offset-2 extra-small-12">
             <input
               type="submit"

@@ -10,6 +10,14 @@
 //* Responsive Images
 .responsive-image {
   display: block;
-  height: auto;
-  width: 100%;
+}
+
+.container {
+  margin: auto;
+  max-width: 70%;
+  min-height: 100vh;
+}
+
+.align-center {
+  align-items: center;
 }

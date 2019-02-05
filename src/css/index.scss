@@ -1,8 +1,19 @@
-$primary-font: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+$title-font: 'Great Vibes', cursive;
+$text-font: 'Raleway', sans-serif;
+$subtitle-font: 'KoHo', sans-serif;
 
-body {
-  font-family: $primary-font;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body,
+h1,
+h2 {
+  font-family: $text-font;
   margin: 0;
   padding: 0;
 }
@@ -20,3 +31,5 @@ button {
 
 @import './utilities';
 @import './grid';
+@import './typography';
+@import './colors';

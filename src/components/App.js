@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
-import logo from '../assets/logos/the_lily.png';
-import './App.css';
-import LinkedInIcon from './icons/LinkedInIcon';
-import GithubIcon from './icons/GithubIcon';
-import TwitterIcon from './icons/TwitterIcon';
-import StackOverflowIcon from './icons/StackOverflowIcon';
-import ContactForm from './ContactForm';
+import React, {Component, Fragment} from 'react';
+import Header from './Header';
+import WorkExperience from './WorkExperience';
+import FunFacts from './FunFacts';
+import ExtraCurriculars from './ExtraCurriculars';
+import PartnerDisplay from './PartnerDisplay';
 
 /**
  * Renders the main App components.
@@ -16,38 +14,22 @@ class App extends Component {
    */
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="The Lily Logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <LinkedInIcon /> <GithubIcon /> <StackOverflowIcon /> <TwitterIcon />
-          <ContactForm />
-        </header>
-        Grid Example Below:
-        <div className="wrapper">
-          This is Liza's Github username:{' '}
-          {process.env.REACT_APP_GITHUB_USERNAME}
-          This is Liza's Twitter username:{' '}
-          {process.env.REACT_APP_TWITTER_USERNAME}
-          <div className="row">
-            <div className="extra-small-6">hello!</div>
-            <div className="extra-small-6">extra small 6!</div>
-
-            <div className="small-6 extra-small-12">hello!</div>
-            <div className="small-6 extra-small-12">small 6!</div>
-          </div>
+      <Fragment>
+        <div className="container">
+          <Header />
+          <WorkExperience />
         </div>
-      </div>
+        <PartnerDisplay />
+        <div className="container">
+          <FunFacts />
+          <ExtraCurriculars />
+        </div>
+        <div className="background-dark">
+          <h2 className="white subtitle text-center">
+            This is where contact form and social will go.
+          </h2>
+        </div>
+      </Fragment>
     );
   }
 }
