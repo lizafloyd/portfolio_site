@@ -101,7 +101,6 @@ class ContactForm extends Component {
               onChange={(event) => this.setField('message', event.target.value)}
             />
           </div>
-
           <div className="small-10 small-offset-2 extra-small-12">
             <input
               type="submit"
