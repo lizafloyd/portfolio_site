@@ -58,7 +58,7 @@ class ContactForm extends Component {
     return (
       <Fragment>
         <form
-          className="row"
+          className="row margin-horizontal"
           ref="form"
           action={`https://formspree.io/${email}`}
           method="POST"

@@ -1,10 +1,11 @@
 import React from 'react';
 import profile from '../assets/images/profile.jpg';
 /**
-* Renders the main App components.
-*/
+ * Renders the ContactForm component.
+ * @returns {string} - Returns JSX representation of the Header component.
+ */
 const Header = () => (
-  <div className="header row align-center">
+  <div className="header row align-center margin-horizontal">
     <div className="header-text small-7">
       <h1 className="title">Hi, Friend!</h1>
       <h2 className="subtitle">I'm Liza Floyd.</h2>

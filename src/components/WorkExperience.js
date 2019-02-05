@@ -1,10 +1,11 @@
 import React from 'react';
 import placeholder from '../assets/images/placeholder.png';
 /**
- * Renders the main App components.
+ * Renders the ContactForm component.
+ * @returns {string} - Returns JSX representation of the WorkExperience component.
  */
 const WorkExperience = () => (
-  <div className="header row">
+  <div className="header row margin-horizontal">
     <div className="header-image small-5">
       <img src={placeholder} className="responsive-image" alt="Placeholder" />
     </div>
