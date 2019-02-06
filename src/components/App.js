@@ -2,7 +2,6 @@ import React, {Component, Fragment} from 'react';
 import WorkExperience from './WorkExperience';
 import FunFacts from './FunFacts';
 import ExtraCurriculars from './ExtraCurriculars';
-import PartnerDisplay from './PartnerDisplay';
 import profile from '../assets/images/profile.jpg';
 import LinkedInIcon from './icons/LinkedInIcon';
 import GithubIcon from './icons/GithubIcon';
@@ -68,7 +67,6 @@ class App extends Component {
         <div className="container">
           <WorkExperience />
         </div>
-        <PartnerDisplay />
         <div className="container">
           <FunFacts />
           <ExtraCurriculars />
