@@ -1,5 +1,6 @@
 $gray: #dfdfdf;
-$gray-dark: #5b5b5b;
+$gray-light: #f9f9f9;
+$border-color: #dcdcdc;
 $blue-light: #b3fdff;
 $blue-dark: #0b01e3;
 $yellow: #fdffb3;
@@ -9,8 +10,8 @@ $train-yellow: #efb500;
 $train-blue: #02219e;
 $black: #000;
 
-.background-dark {
-  background-color: $gray-dark;
+.background-gray {
+  background-color: $gray-light;
 }
 
 .white {
@@ -27,4 +28,14 @@ $black: #000;
 
 .border-bottom-red {
   border-bottom: solid $train-red 6px;
+}
+
+.border-gray {
+  &.bottom {
+    border-bottom: 2px solid $border-color;
+  }
+
+  &.top {
+    border-top: 2px solid $border-color;
+  }
 }
