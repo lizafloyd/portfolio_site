@@ -33,7 +33,7 @@ describe('ContactForm', () => {
     function call otherwise the test will throw an error. */
     component.instance().handleFormSubmit({preventDefault: jest.fn()});
 
-    expect(component.state().error).toBe('You must enter a message');
+    expect(component.state().error).toBeTruthy();
   });
 
   it('correctly submits the form if all of the fields are present', () => {
