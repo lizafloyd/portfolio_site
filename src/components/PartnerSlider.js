@@ -16,9 +16,14 @@ import wweek from '../assets/logos/wweek_dark.png';
 export const settings = {
   dots: true,
   infinite: true,
-  arrows: false,
   speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: false,
   autoplaySpeed: 3000,
+  centerMode: true,
+  fade: true,
 };
 
 /**
