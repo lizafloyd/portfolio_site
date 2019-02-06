@@ -9,21 +9,19 @@ import tgam from '../assets/logos/tgam.png';
 import lily from '../assets/logos/the_lily.png';
 import post from '../assets/logos/washington_post.png';
 import wweek from '../assets/logos/wweek_dark.png';
-/**
- * Renders the main App components.
- */
-const settings = {
+
+export const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
   arrows: false,
+  speed: 500,
   autoplaySpeed: 3000,
-  centerMode: true,
-  fade: true,
 };
+
+/**
+ * Renders the main App components.
+ * @returns {string} - Returns JSX representation of the PartnerSlider component.
+ */
 const PartnerSlider = () => (
   <Slider {...settings}>
     <div>
