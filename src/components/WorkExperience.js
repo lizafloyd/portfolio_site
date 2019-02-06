@@ -13,19 +13,30 @@ const WorkExperience = () => (
     <div className="small-7">
       <h2 className="subtitle">Work Experience</h2>
       <p>
-        Normally, both your asses would be dead as fucking fried chicken, but
-        you happen to pull this shit while I'm in a transitional period so I
-        don't wanna kill you, I wanna help you. But I can't give you this case,
-        it don't belong to me. Besides, I've already been through too much shit
-        this morning over this case to hand it over to your dumb ass.
+        My work experience has been quite varied, but it's always had the same
+        unifying themes: working hard, taking ownership, paying attention to
+        detail, and learning unbelievably fast. And that's how I like it.
       </p>
       <p>
-        Do you see any Teletubbies in here? Do you see a slender plastic tag
-        clipped to my shirt with my name printed on it? Do you see a little
-        Asian child with a blank expression on his face sitting outside on a
-        mechanical helicopter that shakes when you put quarters in it? No? Well,
-        that's what you see at a toy store. And you must think you're in a toy
-        store, because you're here shopping for an infant named Jeb.
+        The last few years I've worked in the software as a service sector, for
+        content management platform vendors. The work is an interesting mix of
+        product, agency, and consultancy work, so I've worn every hat you can
+        imagine. I've owned projects, joined sales calls, lead teams, faced down
+        timelines, managed client accounts, developed complex renderings--you
+        name it, I've done it. I started out a few years ago as a Junior
+        Developer, and have since held titles as Solutions Engineer, Midlevel
+        Developer, and now as Technical Lead, delivering a full site build out
+        to a client in Europe.
+      </p>
+      <p>
+        I've worked primarily with React, HTML, CSS, JavaScript, Webpack,
+        JSP/JSTL, SCSS, Enzyme, Jest, and Regex. If you're interested in some of
+        my work, select a partner logo to the left to see their site.
+      </p>
+      <p>
+        Before I was a developer, I've worked in fundraising and as a bartender.
+        And I ought to tell you, not to brag, just so you know: I serve a hell
+        of a Bud.
       </p>
     </div>
   </div>
