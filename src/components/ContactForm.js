@@ -60,7 +60,7 @@ class ContactForm extends Component {
         <div
           className={`red text-center ${!this.state.error ? 'invisible' : ''}`}
         >
-          Some required fields are missing!
+          Some required fields were missing!
         </div>
         <form
           className="row margin-horizontal"
