@@ -3,11 +3,11 @@ import WorkExperience from './WorkExperience';
 import FunFacts from './FunFacts';
 import ContactForm from './ContactForm';
 import ExtraCurriculars from './ExtraCurriculars';
+import profile from '../assets/images/profile.jpg';
 import LinkedInIcon from './icons/LinkedInIcon';
 import GithubIcon from './icons/GithubIcon';
 import TwitterIcon from './icons/TwitterIcon';
 import StackOverflowIcon from './icons/StackOverflowIcon';
-import profile from '../assets/images/profile.jpg';
 /**
  * Renders the main App components.
  */
