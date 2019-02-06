@@ -12,81 +12,60 @@ import wweek from '../assets/logos/wweek_dark.png';
 /**
  * Renders the main App components.
  */
-class SimpleSlider extends React.Component {
-  /**
-   * Renders the ContactForm component.
-   * @returns {string} - Returns JSX representation of the FunFacts component.
-   */
-  render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-    };
-    return (
-      <Slider {...settings}>
-        <div>
-          <img
-            src={leparisien}
-            className="responsive-image"
-            alt="Le Parisien"
-          />
-        </div>
-        <div>
-          <img
-            src={lily}
-            className="responsive-image"
-            alt="The Lily, a publication of the Washington Post"
-          />
-        </div>
-        <div>
-          <img
-            src={nzme}
-            className="responsive-image"
-            alt="New Zealand Herald"
-          />
-        </div>
-        <div>
-          <img
-            src={raycom}
-            className="responsive-image"
-            alt="Raycom Media Group"
-          />
-        </div>
-        <div>
-          <img
-            src={santafe}
-            className="responsive-image"
-            alt="Santa Fe Reporter"
-          />
-        </div>
-        <div>
-          <img
-            src={sightline}
-            className="responsive-image"
-            alt="Sightline Media Group (MCO)"
-          />
-        </div>
-        <div>
-          <img
-            src={tgam}
-            className="responsive-image"
-            alt="Toronto Globe and Mail"
-          />
-        </div>
-        <div>
-          <img src={post} className="responsive-image" alt="Washington Post" />
-        </div>
-        <div>
-          <img src={wweek} className="responsive-image" alt="Wilamette Week" />
-        </div>
-      </Slider>
-    );
-  }
-}
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 3000,
+  centerMode: true,
+  fade: true,
+};
+const PartnerSlider = () => (
+  <Slider {...settings}>
+    <div>
+      <img src={leparisien} className="responsive-image" alt="Le Parisien" />
+    </div>
+    <div>
+      <img
+        src={lily}
+        className="responsive-image"
+        alt="The Lily, a publication of the Washington Post"
+      />
+    </div>
+    <div>
+      <img src={nzme} className="responsive-image" alt="New Zealand Herald" />
+    </div>
+    <div>
+      <img src={raycom} className="responsive-image" alt="Raycom Media Group" />
+    </div>
+    <div>
+      <img src={santafe} className="responsive-image" alt="Santa Fe Reporter" />
+    </div>
+    <div>
+      <img
+        src={sightline}
+        className="responsive-image"
+        alt="Sightline Media Group (MCO)"
+      />
+    </div>
+    <div>
+      <img
+        src={tgam}
+        className="responsive-image"
+        alt="Toronto Globe and Mail"
+      />
+    </div>
+    <div>
+      <img src={post} className="responsive-image" alt="Washington Post" />
+    </div>
+    <div>
+      <img src={wweek} className="responsive-image" alt="Wilamette Week" />
+    </div>
+  </Slider>
+);
 
-export default SimpleSlider;
+export default PartnerSlider;
