@@ -1,3 +1,14 @@
+$gray: #dfdfdf;
+$gray-light: #f9f9f9;
+$border-color: #dcdcdc;
+$blue-light: #b3fdff;
+$blue-dark: #0b01e3;
+$yellow: #fdffb3;
+$white: #fff;
+$train-red: #e84807;
+$train-yellow: #ffb000;
+$train-blue: #02219e;
+$black: #000;
 $title-font: 'Great Vibes', cursive;
 $text-font: 'Raleway', sans-serif;
 $subtitle-font: 'KoHo', sans-serif;
@@ -22,7 +33,9 @@ h2 {
 input,
 textarea,
 button {
+  border: 1px solid $black;
   border-radius: 4px;
+  font-size: 1rem;
   margin-bottom: 15px;
   padding-bottom: 5px;
   padding-top: 5px;

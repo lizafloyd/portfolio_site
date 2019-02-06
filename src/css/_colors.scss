@@ -1,17 +1,9 @@
-$gray: #dfdfdf;
-$gray-light: #f9f9f9;
-$border-color: #dcdcdc;
-$blue-light: #b3fdff;
-$blue-dark: #0b01e3;
-$yellow: #fdffb3;
-$white: #fff;
-$train-red: #e84807;
-$train-yellow: #efb500;
-$train-blue: #02219e;
-$black: #000;
-
 .background-gray {
   background-color: $gray-light;
+}
+
+.background-yellow {
+  background: $train-yellow;
 }
 
 .white {
