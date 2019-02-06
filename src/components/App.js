@@ -27,7 +27,7 @@ class App extends Component {
           <img
             src={profile}
             className="small-3 responsive-image header-image"
-            alt="Placeholder"
+            alt="Liza Floyd"
           />
         </header>
 
