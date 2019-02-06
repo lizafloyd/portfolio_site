@@ -1,5 +1,5 @@
 $gray: #dfdfdf;
-$gray-light: #f9f9f9;
+$gray-light: #fbfbfb;
 $gray-dark: #7a7a7a;
 $border-color: #dcdcdc;
 $blue-light: #b3fdff;
@@ -33,10 +33,10 @@ $black: #000;
 
 .border-gray {
   &.bottom {
-    border-bottom: 2px solid $border-color;
+    border-bottom: 1px solid $border-color;
   }
 
   &.top {
-    border-top: 2px solid $border-color;
+    border-top: 1px solid $border-color;
   }
 }
