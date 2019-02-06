@@ -1,42 +1,92 @@
-import React from "react";
-import Slider from "react-slick";
-import placeholder from '../assets/images/placeholder.png';
-
+import React from 'react';
+import Slider from 'react-slick';
+import leparisien from '../assets/logos/leparisien.png';
+import nzme from '../assets/logos/nzme.png';
+import raycom from '../assets/logos/raycom.png';
+import santafe from '../assets/logos/santafe.png';
+import sightline from '../assets/logos/sightline.png';
+import tgam from '../assets/logos/tgam.png';
+import lily from '../assets/logos/the_lily.png';
+import post from '../assets/logos/washington_post.png';
+import wweek from '../assets/logos/wweek_dark.png';
+/**
+ * Renders the main App components.
+ */
 class SimpleSlider extends React.Component {
+  /**
+   * Renders the ContactForm component.
+   * @returns {string} - Returns JSX representation of the FunFacts component.
+   */
   render() {
-    var settings = {
+    const settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: true,
       autoplay: true,
-      autoplaySpeed: 3000
+      autoplaySpeed: 3000,
     };
     return (
       <Slider {...settings}>
         <div>
-        <img src={placeholder} className="responsive-image" alt="Placeholder" />
+          <img
+            src={leparisien}
+            className="responsive-image"
+            alt="Le Parisien"
+          />
         </div>
         <div>
-        <img src={placeholder} className="responsive-image" alt="Placeholder" />
+          <img
+            src={lily}
+            className="responsive-image"
+            alt="The Lily, a publication of the Washington Post"
+          />
         </div>
         <div>
-        <img src={placeholder} className="responsive-image" alt="Placeholder" />
+          <img
+            src={nzme}
+            className="responsive-image"
+            alt="New Zealand Herald"
+          />
         </div>
         <div>
-        <img src={placeholder} className="responsive-image" alt="Placeholder" />
+          <img
+            src={raycom}
+            className="responsive-image"
+            alt="Raycom Media Group"
+          />
         </div>
         <div>
-        <img src={placeholder} className="responsive-image" alt="Placeholder" />
+          <img
+            src={santafe}
+            className="responsive-image"
+            alt="Santa Fe Reporter"
+          />
         </div>
         <div>
-        <img src={placeholder} className="responsive-image" alt="Placeholder" />
+          <img
+            src={sightline}
+            className="responsive-image"
+            alt="Sightline Media Group (MCO)"
+          />
+        </div>
+        <div>
+          <img
+            src={tgam}
+            className="responsive-image"
+            alt="Toronto Globe and Mail"
+          />
+        </div>
+        <div>
+          <img src={post} className="responsive-image" alt="Washington Post" />
+        </div>
+        <div>
+          <img src={wweek} className="responsive-image" alt="Wilamette Week" />
         </div>
       </Slider>
     );
   }
 }
 
-export default SimpleSlider
+export default SimpleSlider;
