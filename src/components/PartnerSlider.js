@@ -10,6 +10,9 @@ import lily from '../assets/logos/the_lily.png';
 import post from '../assets/logos/washington_post.png';
 import wweek from '../assets/logos/wweek_dark.png';
 
+/**
+ * Slider settings.
+ */
 export const settings = {
   dots: true,
   infinite: true,
