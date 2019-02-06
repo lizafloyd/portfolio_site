@@ -42,6 +42,10 @@ button {
   padding-top: 5px;
   text-indent: 5px;
   width: 100%;
+
+  &.error {
+    border: 1px solid $train-red;
+  }
 }
 
 @import './colors';

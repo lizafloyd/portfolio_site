@@ -36,12 +36,12 @@ class ContactForm extends Component {
    */
   handleFormSubmit(event) {
     event.preventDefault();
-    if (!this.state.data.name) {
-      this.setState({error: 'Name is required'});
-    } else if (!this.state.data.email) {
-      this.setState({error: 'Email address is required'});
-    } else if (!this.state.data.message) {
-      this.setState({error: 'You must enter a message'});
+    if (
+      !this.state.data.name ||
+      !this.state.data.email ||
+      !this.state.data.message
+    ) {
+      this.setState({error: true});
     } else {
       // If there's no validation errors the form will be submitted.
       this.refs['form'].submit();
@@ -57,6 +57,11 @@ class ContactForm extends Component {
 
     return (
       <Fragment>
+        <div
+          className={`red text-center ${!this.state.error ? 'invisible' : ''}`}
+        >
+          Some required fields are missing!
+        </div>
         <form
           className="row margin-horizontal"
           ref="form"
@@ -68,6 +73,9 @@ class ContactForm extends Component {
           </label>
           <div className="small-10 extra-small-12">
             <input
+              className={
+                this.state.error && !this.state.data.name ? 'error' : ''
+              }
               type="text"
               name="name"
               id="name"
@@ -84,6 +92,9 @@ class ContactForm extends Component {
           </label>
           <div className="small-10 extra-small-12">
             <input
+              className={
+                this.state.error && !this.state.data.email ? 'error' : ''
+              }
               type="email"
               name="_replyto"
               placeholder="Email..."
@@ -100,6 +111,9 @@ class ContactForm extends Component {
           </label>
           <div className="small-10 extra-small-12">
             <textarea
+              className={
+                this.state.error && !this.state.data.message ? 'error' : ''
+              }
               name="message"
               placeholder="Message..."
               rows="6"

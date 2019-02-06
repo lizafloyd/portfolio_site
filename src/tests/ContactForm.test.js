@@ -29,11 +29,17 @@ describe('ContactForm', () => {
     component.instance().setField('email', process.env.REACT_APP_EMAIL_ADDRESS);
     component.instance().setField('name', 'James');
 
+    // Expect the error field to be invisible in the default state.
+    expect(component.find('.red').hasClass('invisible')).toBeTruthy();
+
     /* preventDefault needs to be mocked in the handleFormSubmit
     function call otherwise the test will throw an error. */
     component.instance().handleFormSubmit({preventDefault: jest.fn()});
 
-    expect(component.state().error).toBe('You must enter a message');
+    expect(component.state().error).toBeTruthy();
+
+    // If the form resolves an error then the invisible class should no longer be present.
+    expect(component.find('.red').hasClass('invisible')).toBeFalsy();
   });
 
   it('correctly submits the form if all of the fields are present', () => {
