@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-// Skip to main content for a11y purposes.
+//* Skip to main content for a11y purposes.
 .skip {
   background: $white;
   height: 1px;
@@ -48,4 +48,9 @@
     width: auto;
     z-index: 999;
   }
+}
+
+//* Visibility
+.invisible {
+  visibility: hidden;
 }

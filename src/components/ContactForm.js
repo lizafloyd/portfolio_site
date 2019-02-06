@@ -57,6 +57,11 @@ class ContactForm extends Component {
 
     return (
       <Fragment>
+        <div
+          className={`red text-center ${!this.state.error ? 'invisible' : ''}`}
+        >
+          Some required fields are missing!
+        </div>
         <form
           className="row margin-horizontal"
           ref="form"
