@@ -25,3 +25,27 @@
 .full-width {
   width: 100%;
 }
+
+// Skip to main content for a11y purposes.
+.skip {
+  background: $white;
+  height: 1px;
+  left: -1000px;
+  padding: 10px;
+  position: absolute;
+  top: -1000px;
+  white-space: nowrap;
+  width: 1px;
+  z-index: 1;
+
+  &:focus {
+    color: $black;
+    font-weight: 800;
+    height: auto;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+    width: auto;
+    z-index: 999;
+  }
+}
