@@ -18,14 +18,15 @@ const WorkExperience = () => (
         detail, and learning unbelievably fast. And that's how I like it.
       </p>
       <p>
-        The last few years I've worked for Arc Publishing, the SAAS arm of the
-        Washington Post. The work is an interesting mix of product, agency, and
-        consultancy work, so I've worn every hat you can imagine. I've owned
-        projects, joined sales calls, lead teams, faced down timelines, managed
-        client accounts, developed complex renderings--you name it, I've done
-        it. At Arc, I started as a junior developer, and have since held titles
-        as Solutions Engineer, midlevel Developer, and now as technical lead,
-        delivering a full site build out to a client in Europe.
+        The last few years I've worked in the software as a service sector, for
+        content management platform vendors. The work is an interesting mix of
+        product, agency, and consultancy work, so I've worn every hat you can
+        imagine. I've owned projects, joined sales calls, lead teams, faced down
+        timelines, managed client accounts, developed complex renderings--you
+        name it, I've done it. I started out a few years ago as a junior
+        developer, and have since held titles as Solutions Engineer, midlevel
+        Developer, and now as technical lead, delivering a full site build out
+        to a client in Europe.
       </p>
       <p>
         I've worked primarily with React, HTML, CSS, JavaScript, Webpack,
