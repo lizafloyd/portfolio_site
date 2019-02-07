@@ -6,11 +6,11 @@ import TwitterIcon from './icons/TwitterIcon';
 import StackOverflowIcon from './icons/StackOverflowIcon';
 
 /** Renders the global footer component.
- * @param {boolean} linkedin - Toggles the LinkedIn logo on/off.
- * @param {boolean} github - Toggles the Github logo on/off.
- * @param {boolean} twitter - Toggles the Twitter logo on/off.
- * @param {boolean} stackOverflow - Toggles the Stack Overflow logo on/off.
- * @param {boolean} copyright - Toggles the copyright text on/off.
+ * @param {boolean} props.linkedin - Toggles the LinkedIn logo on/off.
+ * @param {boolean} props.github - Toggles the Github logo on/off.
+ * @param {boolean} props.twitter - Toggles the Twitter logo on/off.
+ * @param {boolean} props.stackOverflow - Toggles the Stack Overflow logo on/off.
+ * @param {boolean} props.copyright - Toggles the copyright text on/off.
  * @returns {string} - Returns a JSX representation of the Footer.
  */
 const Footer = ({linkedIn, github, twitter, stackOverflow, copyright}) => (

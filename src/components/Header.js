@@ -2,10 +2,10 @@ import React, {Fragment} from 'react';
 import PropTypes from 'prop-types';
 
 /** Renders the Header component.
- * @param {boolean} skipLink - Toggles the a11y skip link on/off.
- * @param {string} bannerClasses - A string of classes to be used for the banner.
- * @param {string} profileImage - The URL of the profile image.
- * @param {string} profileAlt - A string describing the profile image.
+ * @param {boolean} props.skipLink - Toggles the a11y skip link on/off.
+ * @param {string} props.bannerClasses - A string of classes to be used for the banner.
+ * @param {string} props.profileImage - The URL of the profile image.
+ * @param {string} props.profileAlt - A string describing the profile image.
  * @returns {string} - Returns a JSX representation of the Header.
  */
 const Header = ({skipLink, bannerClasses, profileImage, profileAlt}) => (

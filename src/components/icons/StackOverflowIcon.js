@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Renders an inline SVG of the Stack Overflow logo.
- * @param {string} height - The height of the SVG in pixels.
- * @param {string} width - The width of the SVG in pixels.
- * @param {string} fill - The color hex code that the SVG should be.
+ * @param {string} props.height - The height of the SVG in pixels.
+ * @param {string} props.width - The width of the SVG in pixels.
+ * @param {string} props.fill - The color hex code that the SVG should be.
  * @returns {string} - Returns a JSX representation of the StackOverflow logo.
  */
 const StackOverflowIcon = ({height, width, fill}) => (

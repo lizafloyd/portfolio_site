@@ -10,13 +10,13 @@
 .header-image {
   border: 6px $white solid;
   border-radius: 50%;
+  max-height: 18rem;
+  max-width: 18rem;
   padding: 0;
   position: absolute;
   right: 0;
   top: 7rem;
   z-index: 100;
-  max-width: 18rem;
-  max-height: 18rem;
 }
 
 .header-text {
