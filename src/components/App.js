@@ -1,6 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import Header from './Header';
-import Footer from './Footer';
 import WorkExperience from './WorkExperience';
 import FunFacts from './FunFacts';
 import ContactForm from './ContactForm';
@@ -20,12 +18,18 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header
-          skipLink={true}
-          profileImage={profile}
-          profileAlt="Liza Floyd"
-          bannerClasses="banner"
-        />
+        <a href="#main" className="skip">
+          Skip to Main Content
+        </a>
+        <header id="top">
+          <div className="banner" />
+
+          <img
+            src={profile}
+            className="small-3 responsive-image header-image"
+            alt="Liza Floyd"
+          />
+        </header>
 
         <main role="main">
           <section className="container">
@@ -44,7 +48,7 @@ class App extends Component {
                   on Rails. If I'm not learning, I'm not happy.
                 </p>
               </div>
-              <div className="social-icons margin-horizontal full-width">
+              <div className="social-icons full-width">
                 <div className="icon-container small-6">
                   <a href={process.env.REACT_APP_LINKEDIN_ANCHOR} role="button">
                     <LinkedInIcon />
@@ -106,7 +110,6 @@ class App extends Component {
             <ContactForm />
           </section>
         </main>
-        <Footer />
       </Fragment>
     );
   }
