@@ -7,15 +7,20 @@
   text-align: center;
 }
 
+.margin-horizontal {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+//* Position
+.relative {
+  position: relative;
+}
+
 //* Responsive Images
 .responsive-image {
   display: block;
   max-width: 100%;
-}
-
-.container {
-  margin: auto;
-  max-width: 70%;
 }
 
 .align-center {

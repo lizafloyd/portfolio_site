@@ -12,16 +12,18 @@
   border-radius: 50%;
   padding: 0;
   position: absolute;
-  right: 8rem;
-  top: 10rem;
+  right: 0;
+  top: 7rem;
   z-index: 100;
+  max-width: 18rem;
+  max-height: 18rem;
 }
 
 .header-text {
   color: $white;
   position: absolute;
   text-shadow: 4px 4px $black;
-  top: 15rem;
+  top: 17rem;
   z-index: 100;
 }
 

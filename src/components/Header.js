@@ -16,12 +16,15 @@ const Header = ({skipLink, bannerClasses, profileImage, profileAlt}) => (
       </a>
     )}
     <header id="top" role="banner">
-      <div className={bannerClasses} />
-      <img
-        src={profileImage}
-        alt={profileAlt || ''}
-        className="small-3 responsive-image header-image"
-      />
+      <div className={bannerClasses}>
+        <div className="container relative">
+          <img
+            src={profileImage}
+            alt={profileAlt || ''}
+            className="small-3 responsive-image header-image"
+          />
+        </div>
+      </div>
     </header>
   </Fragment>
 );
