@@ -24,6 +24,10 @@
   position: relative;
 }
 
+.block {
+  display: block;
+}
+
 //* Responsive Images
 .responsive-image {
   display: block;
@@ -65,4 +69,19 @@
 //* Visibility
 .invisible {
   visibility: hidden;
+}
+
+//* Lists
+.list {
+  text-align: left;
+  padding-left: 1rem;
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  .list-title {
+    font-size: 1rem;
+    font-weight: 800
+  }
 }

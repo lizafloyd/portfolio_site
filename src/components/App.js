@@ -78,9 +78,7 @@ class App extends Component {
             id="curricular"
             className="background-gray border-gray bottom top"
           >
-            <div className="container">
-              <ExtraCurriculars />
-            </div>
+            <ExtraCurriculars />
           </section>
           <section id="contact" className="container margin-horizontal">
             <h2 className="subtitle text-center">Let's Get in Touch</h2>
