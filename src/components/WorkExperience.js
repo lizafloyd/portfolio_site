@@ -11,7 +11,7 @@ const WorkExperience = () => (
       <PartnerSlider />
     </div>
     <div className="small-7">
-      <h2 className="subtitle">Work Experience</h2>
+      <h2 className="subtitle border-bottom-yellow">Work Experience</h2>
       <p>
         My work experience has been quite varied, but it's always had the same
         unifying themes: working hard, taking ownership, paying attention to

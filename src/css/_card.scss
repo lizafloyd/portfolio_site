@@ -1,0 +1,41 @@
+//* Card Elements
+.card {
+  border-radius: .2rem;
+  box-shadow: 0 14px 28px $card-shadow-25, 0 10px 10px $card-shadow-21;
+  height: 100%;
+  position: relative;
+
+  .card-inner {
+    padding: 1rem;
+  }
+
+  img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  h2 {
+    border-bottom: 1px solid;
+    font-family: $accent-font;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px $black;
+  }
+
+  .collapse {
+    display: none;
+
+    &.open {
+      display: block;
+    }
+  }
+
+  .action-list {
+    margin: 0 auto;
+
+    button {
+      max-width: 50%;
+    }
+  }
+}

@@ -4,7 +4,21 @@
 }
 
 .subtitle {
-  font-family: $subtitle-font;
+  font-family: $accent-font;
+  font-size: 2rem;
+
+  &::after {
+    border-bottom: 2px solid $train-yellow;
+    content: '';
+    display: block;
+    width: 70%;
+  }
+
+  &.center-border {
+    &::after {
+      margin: 0 auto;
+    }
+  }
 }
 
 .accent {

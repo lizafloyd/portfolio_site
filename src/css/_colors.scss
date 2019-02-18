@@ -3,27 +3,23 @@
 }
 
 .background-yellow {
-  background: $train-yellow;
+  background-color: $train-yellow;
 }
 
 .white {
   color: $white;
 }
 
+.blue {
+  color: $train-blue;
+}
+
 .red {
   color: $train-red;
 }
 
-.border-bottom-blue {
-  border-bottom: solid $train-blue 6px;
-}
-
-.border-bottom-yellow {
-  border-bottom: solid $train-yellow 6px;
-}
-
-.border-bottom-red {
-  border-bottom: solid $train-red 6px;
+.yellow {
+  color: $train-yellow;
 }
 
 .border-gray {

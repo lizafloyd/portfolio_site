@@ -1,3 +1,4 @@
+//* Colors
 $gray: #dfdfdf;
 $gray-light: #f9f9f9;
 $gray-dark: #f9f9f9;
@@ -6,14 +7,42 @@ $blue-light: #b3fdff;
 $blue-dark: #0b01e3;
 $yellow: #fdffb3;
 $white: #fff;
+$black: #000;
 $train-red: #e84807;
 $train-yellow: #ffb000;
 $train-blue: #02219e;
 $black: #000;
+$card-shadow-25: rgba(0, 0, 0, .25);
+$card-shadow-21: rgba(0, 0, 0, .21);
+
+//* Fonts
 $title-font: 'Great Vibes', cursive;
 $text-font: 'Raleway', sans-serif;
 $subtitle-font: 'KoHo', sans-serif;
 $accent-font: 'Saira Extra Condensed', sans-serif;
+
+//* Spacing
+$spacing-unit: 20px;
+$content-width: 1160px;
+
+//* Breakpoint
+$on-laptop: 1024px;
+
+//* Media Screen Mixin
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+//* Clearfix
+%clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
 
 * {
   box-sizing: border-box;
@@ -48,10 +77,28 @@ button {
   }
 }
 
+button {
+  font-family: $subtitle-font;
+}
+
+a {
+  color: $train-red;
+  text-decoration: none;
+
+  &:visited {
+    color: $train-red;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
 @import './colors';
 @import './utilities';
 @import './grid';
 @import './typography';
 @import './header';
+@import './card';
 
 
