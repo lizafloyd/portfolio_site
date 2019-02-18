@@ -76,12 +76,14 @@ class App extends Component {
 
           <section
             id="curricular"
-            className="background-gray border-gray bottom top"
+            className="background-gray border-gray bottom top padding-horizontal"
           >
             <ExtraCurriculars />
           </section>
-          <section id="contact" className="container margin-horizontal">
-            <h2 className="subtitle text-center">Let's Get in Touch</h2>
+          <section id="contact" className="container padding-horizontal">
+            <h2 className="subtitle text-center center-border">
+              Let's Get in Touch
+            </h2>
             <p>
               Normally, both your asses would be dead as fucking fried chicken,
               but you happen to pull this shit while I'm in a transitional

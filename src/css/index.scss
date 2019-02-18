@@ -6,6 +6,7 @@ $blue-light: #b3fdff;
 $blue-dark: #0b01e3;
 $yellow: #fdffb3;
 $white: #fff;
+$black: #000;
 $train-red: #e84807;
 $train-yellow: #ffb000;
 $train-blue: #02219e;
@@ -48,10 +49,28 @@ button {
   }
 }
 
+button {
+  font-family: $subtitle-font;
+}
+
+a {
+  color: $train-red;
+  text-decoration: none;
+
+  &:visited {
+    color: $train-red;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
 @import './colors';
 @import './utilities';
 @import './grid';
 @import './typography';
 @import './header';
+@import './card';
 
 

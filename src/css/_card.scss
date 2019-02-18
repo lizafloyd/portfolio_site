@@ -1,0 +1,47 @@
+//* Card Elements
+.card {
+  border-radius: .2rem;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+  .card-inner {
+    padding: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  h2 {
+    border-bottom: 1px solid;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px $black;
+    margin-bottom: 1rem;
+    font-family: $accent-font;
+  }
+
+  .card-expandable-inner {
+    transition: all .5s ease;
+    position: relative;
+  }
+
+  .collapse {
+    display: none;
+    
+    &.open {
+      display: block;
+    }
+  }
+
+  .action-list {
+    margin: 0 auto;
+
+    button {
+      max-width: 50%;
+    }
+  }
+}

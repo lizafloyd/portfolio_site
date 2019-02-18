@@ -7,7 +7,7 @@ import placeholder from '../assets/images/placeholder.png';
 const FunFacts = () => (
   <div className="header row margin-horizontal">
     <div className="small-7">
-      <h2 className="subtitle">Fun Facts</h2>
+      <h2 className="subtitle border-bottom-yellow">Fun Facts</h2>
       <p>Some details.</p>
     </div>
     <div className="small-5">

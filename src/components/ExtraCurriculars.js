@@ -1,88 +1,87 @@
 import React from 'react';
+import Card from './Card';
+import educationImg from '../assets/images/card_03.jpeg';
+import projectImg from '../assets/images/card_02.jpeg';
+import curricularImg from '../assets/images/card_01.jpeg';
+
 /**
  * Renders the ContactForm component.
  * @returns {string} - Returns JSX representation of the ExtraCurriculars component.
  */
 
 const ExtraCurriculars = () => (
-  <div className="background-yellow">
-  
   <div className="container">
-  <div className="header row">
-    <div className="small-4 extra-small-12 padding-horizontal">
-      <h2 className="subtitle">
-        Education{' '}
-        <span role="img" aria-label="honors">
-        🎓
-        </span>
-      </h2>
+    <div className="row">
+      <div className="small-4 extra-small-12 margin bottom single">
+        <Card
+          title="Education"
+          subtitle="I'm educated and super cool!"
+          color="yellow"
+          items={[
+            {
+              title: 'Web Development Immersive Participant',
+              description: 'General Assembly',
+            },
+            {
+              title: "Bachelor's Degree, Anthropology",
+              description: 'George Washington University',
+            },
+            {
+              title: 'High School',
+              description: 'St. Pauls High School for Girls',
+            },
+          ]}
+          emoji={'🎓'}
+          imgSrc={educationImg}
+        />
+      </div>
 
-      <ul className="list">
-      <li>
-          <span className="list-title block">Generel Assembly</span>
-          <span className="list-description">Bootcamp</span>
-        </li>
-        <li>
-          <span className="list-title block">
-            Bachelor's Degree, Anthropology
-          </span>
-          <span className="list-description">
-            The George Washington University
-          </span>
-        </li>
-      </ul>
+      <div className="small-4 extra-small-12 margin bottom single">
+        <Card
+          title="Projects"
+          subtitle="I have worked on some projects"
+          color="red"
+          items={[
+            {
+              title: 'Portfolio',
+              description:
+                'Built with React, the website you are currently viewing can be seen on Github',
+              link: 'http://github.com/LizaFloyd/portfolio_site',
+            },
+            {
+              title: 'DC Metro Google Assistant App',
+              description:
+                'Contributed to the DC Metro Google Assistant application.',
+              link:
+                'https://github.com/JamesIves/dc-metro-google-assistant-action',
+            },
+          ]}
+          emoji={'🥑'}
+          imgSrc={projectImg}
+        />
+      </div>
+
+      <div className="small-4 extra-small-12 margin bottom single">
+        <Card
+          title="Extra Curricular"
+          subtitle="I have done so much stuff"
+          color="blue"
+          items={[
+            {
+              title: 'DCJS Co-Organizer',
+              description:
+                'Assisted with organizing DCJS, the districts largest JavaScript meetup.',
+            },
+            {
+              title: 'Google Women Techmaker Member',
+              description: 'Member of the Google Techmaker community.',
+            },
+          ]}
+          emoji={'🍋'}
+          imgSrc={curricularImg}
+        />
+      </div>
     </div>
-
-    <div className="small-4 extra-small-12 background-red padding-horizontal">
-      <h2 className="subtitle">
-        Open Source{' '}
-        <span role="img" aria-label="honors">
-         💻
-        </span>
-      </h2>
-
-      <ul className="list">
-        <li>
-          <span className="list-title block">Portfolio Site</span>
-          <span className="list-description">This entire website is open source!</span>
-        </li>
-        <li>
-          <span className="list-title block">
-            DC Metro Google Assistant Action
-          </span>
-          <span className="list-description">
-            Contributed to this effort
-          </span>
-        </li>
-      </ul>
-    </div>
-
-    <div className="small-4 extra-small-12 padding-horizontal">
-      <h2 className="subtitle">
-        Extra Curricular{' '}
-        <span role="img" aria-label="honors">
-         🍋
-        </span>
-      </h2>
-
-
-      <ul className="list">
-        <li>
-          <span className="list-title block">DCJS Co-Organizer</span>
-          <span className="list-description">Assisted with organizing DCJS, the districts largest Javascript meetup.</span>
-        </li>
-        <li>
-          <span className="list-title block">
-            Google Women Techmaker Member
-          </span>
-          <span className="list-description">
-            Member of the Google Techmaker community.
-          </span>
-        </li>
-      </ul>
-    </div>
-  </div>
-  </div>
   </div>
 );
 
