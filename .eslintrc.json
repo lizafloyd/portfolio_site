@@ -8,7 +8,8 @@
   },
   "globals": {
     "workbox": true,
-    "clients": true
+    "clients": true,
+    "google": true
   },
   "extends": ["eslint:recommended", "prettier", "plugin:jsx-a11y/recommended"],
   "parserOptions": {
