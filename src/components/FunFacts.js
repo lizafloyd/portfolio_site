@@ -10,7 +10,7 @@ const FunFacts = () => (
     <div className="small-7">
       <h2 className="subtitle">Fun Facts</h2>
       <ul>
-        <li>I've been all these places 👉</li>
+        <li>I've been all these places <span role="img" aria-label="Point right emoji">👉</span></li>
         <li>Second fun fact</li>
         <li>Another fun fact</li>
         </ul>
