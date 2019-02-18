@@ -40,13 +40,15 @@ class Card extends Component {
           {title && (
             <h2 className={color}>
               {title}
-              <span
-                className="margin single left"
-                role="img"
-                aria-label={title}
-              >
-                {emoji}
-              </span>
+              {emoji && (
+                <span
+                  className="margin single left"
+                  role="img"
+                  aria-label={title}
+                >
+                  {emoji}
+                </span>
+              )}
             </h2>
           )}
           {subtitle && <div className="description">{subtitle}</div>}

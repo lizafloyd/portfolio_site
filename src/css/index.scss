@@ -24,21 +24,23 @@ $accent-font: 'Saira Extra Condensed', sans-serif;
 //* Spacing
 $spacing-unit: 20px;
 $content-width: 1160px;
+
+//* Breakpoint
 $on-laptop: 1024px;
 
 //* Media Screen Mixin
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
-      @content;
+    @content;
   }
 }
 
 //* Clearfix
 %clearfix {
-  &:after {
-      content: "";
-      display: table;
-      clear: both;
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
   }
 }
 
