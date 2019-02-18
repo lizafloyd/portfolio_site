@@ -1,3 +1,22 @@
+//* Container
+.container {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+  }
+}
+
+//* Row
 .row {
   box-sizing: border-box;
   display: flex;
@@ -6,11 +25,6 @@
   flex-wrap: wrap;
   margin-left: -1rem;
   margin-right: -1rem;
-}
-
-.container {
-  margin: auto;
-  max-width: 70%;
 }
 
 //* Extra small devices

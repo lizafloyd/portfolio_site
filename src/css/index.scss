@@ -1,3 +1,4 @@
+//* Colors
 $gray: #dfdfdf;
 $gray-light: #f9f9f9;
 $gray-dark: #f9f9f9;
@@ -13,10 +14,33 @@ $train-blue: #02219e;
 $black: #000;
 $card-shadow-25: rgba(0, 0, 0, .25);
 $card-shadow-21: rgba(0, 0, 0, .21);
+
+//* Fonts
 $title-font: 'Great Vibes', cursive;
 $text-font: 'Raleway', sans-serif;
 $subtitle-font: 'KoHo', sans-serif;
 $accent-font: 'Saira Extra Condensed', sans-serif;
+
+//* Spacing
+$spacing-unit: 20px;
+$content-width: 1228px;
+$on-laptop: 1024px;
+
+//* Media Screen Mixin
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+      @content;
+  }
+}
+
+//* Clearfix
+%clearfix {
+  &:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+}
 
 * {
   box-sizing: border-box;
