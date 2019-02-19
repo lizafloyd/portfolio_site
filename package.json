@@ -22,7 +22,7 @@
     "eslint-plugin-react": "^7.12.3",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
-    "prettier": "^1.15.3",
+    "prettier": "^1.16.4",
     "react-test-renderer": "^15.6.2",
     "sass-lint": "^1.12.1"
   },
