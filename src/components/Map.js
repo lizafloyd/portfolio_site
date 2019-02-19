@@ -9,6 +9,7 @@ import {
 
 /**
  * Renders the Map component.
+ * @param {object} props - Component props
  * @returns {string} - Returns JSX representation of the Map component.
  */
 const Map = (props) => (
@@ -22,7 +23,7 @@ const Map = (props) => (
 
 Map.propTypes = {
   isMarkerShown: PropTypes.bool,
-  mapPins: PropTypes.array
+  mapPins: PropTypes.array,
 };
 
 export {Map as PureMap};
