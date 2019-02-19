@@ -12,16 +12,31 @@
   margin-top: 2rem;
 }
 
-
 .padding-horizontal {
   padding-bottom: 2rem;
   padding-top: 2rem;
+}
+
+.margin {
+  &.single {
+    &.bottom {
+      margin-bottom: 1rem;
+    }
+
+    &.left {
+      margin-left: 1rem;
+    }
+  }
 }
 
 
 //* Position
 .relative {
   position: relative;
+}
+
+.block {
+  display: block;
 }
 
 //* Responsive Images
@@ -65,4 +80,23 @@
 //* Visibility
 .invisible {
   visibility: hidden;
+}
+
+//* Lists
+.list {
+  padding-left: 1rem;
+  text-align: left;
+
+  h2 {
+    border-bottom: 1px solid $gray-light;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  .list-title {
+    font-size: 1rem;
+    font-weight: 800;
+  }
 }
