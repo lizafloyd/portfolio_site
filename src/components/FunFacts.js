@@ -1,5 +1,6 @@
 import React from 'react';
 import Map from './Map';
+import Loader from './icons/Loader';
 import {mapPins} from '../constants';
 /**
  * Renders the FunFacts component.
@@ -26,7 +27,11 @@ const FunFacts = () => (
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${
           process.env.REACT_APP_MAP_KEY
         }&v=3.exp&libraries=geometry,drawing,places`}
-        loadingElement={<div style={{height: `100%`}} />}
+        loadingElement={
+          <div style={{width: '100%', textAlign: 'center'}}>
+            <Loader height="60px" width="60px" />
+          </div>
+        }
         containerElement={<div style={{height: `300px`}} />}
         mapElement={<div style={{height: `100%`}} />}
         mapPins={mapPins}
