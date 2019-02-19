@@ -7,7 +7,7 @@ import {mapPins} from '../constants';
  */
 const FunFacts = () => (
   <div className="header row margin-horizontal">
-    <div className="small-7">
+    <div className="small-7 extra-small-12">
       <h2 className="subtitle">Fun Facts</h2>
       <ul>
         <li>
@@ -20,7 +20,7 @@ const FunFacts = () => (
         <li>Another fun fact</li>
       </ul>
     </div>
-    <div className="small-5">
+    <div className="small-5 extra-small-12">
       <Map
         isMarkerShown
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${

@@ -30,7 +30,7 @@ class App extends Component {
         <main role="main">
           <section className="container">
             <div className="header row align-center margin-horizontal">
-              <div className="small-9">
+              <div className="small-9 extra-small-12">
                 <h1 className="header-text title">Liza Floyd</h1>
                 <h2 className="accent">
                   I make websites and lattes. The websites are prettier but the
@@ -45,7 +45,7 @@ class App extends Component {
                 </p>
               </div>
               <div className="social-icons margin-horizontal full-width">
-                <div className="icon-container small-6">
+                <div className="icon-container extra-small-12 small-6">
                   <a href={process.env.REACT_APP_LINKEDIN_ANCHOR} role="button">
                     <LinkedInIcon />
                   </a>

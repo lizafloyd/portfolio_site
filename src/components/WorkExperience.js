@@ -7,10 +7,10 @@ import PartnerSlider from './PartnerSlider';
  */
 const WorkExperience = () => (
   <div className="header row margin-horizontal">
-    <div className="small-5">
+    <div className="small-5 extra-small-12">
       <PartnerSlider />
     </div>
-    <div className="small-7">
+    <div className="small-7 extra-small-12">
       <h2 className="subtitle border-bottom-yellow">Work Experience</h2>
       <p>
         My work experience has been quite varied, but it's always had the same

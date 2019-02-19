@@ -21,7 +21,7 @@ const Header = ({skipLink, bannerClasses, profileImage, profileAlt}) => (
           <img
             src={profileImage}
             alt={profileAlt || ''}
-            className="small-3 responsive-image header-image"
+            className="small-3 extra-small-12 responsive-image header-image"
           />
         </div>
       </div>
