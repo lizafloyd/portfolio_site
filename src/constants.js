@@ -1,3 +1,4 @@
+/** Array containing pins for locations I've been. */
 export const mapPins = [
   {name: 'Washington, DC', lat: 38.9072, lng: -77.0369},
   {name: 'New York City', lat: 40.785091, lng: -73.968285},

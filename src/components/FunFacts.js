@@ -2,7 +2,7 @@ import React from 'react';
 import Map from './Map';
 import {mapPins} from '../constants';
 /**
- * Renders the ContactForm component.
+ * Renders the FunFacts component.
  * @returns {string} - Returns JSX representation of the FunFacts component.
  */
 const FunFacts = () => (
