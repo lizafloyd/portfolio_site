@@ -2,7 +2,7 @@ import React from 'react';
 import Loader from '../../components/icons/Loader';
 import {shallow} from 'enzyme';
 
-describe('StackOverflowIcon', () => {
+describe('Loader', () => {
   it('correctly changes the colour and size', () => {
     const props = {
       height: '80px',
