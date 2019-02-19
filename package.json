@@ -23,7 +23,7 @@
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
-    "react-test-renderer": "^15.6.2",
+    "react-test-renderer": "^16.8.2",
     "sass-lint": "^1.12.1"
   },
   "scripts": {
