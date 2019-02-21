@@ -112,6 +112,10 @@
   max-width: 100%;
 }
 
+.order-2 {
+  order: 2;
+}
+
 //* Extra small devices and above
 @media only screen and (min-width: 48em) {
   .small,
@@ -201,5 +205,9 @@
 
   .small-offset-2 {
     margin-left: 16.667%;
+  }
+
+  .order-2 {
+    order: initial;
   }
 }
