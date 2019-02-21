@@ -34,7 +34,7 @@ class Card extends Component {
     } = this.props;
 
     return (
-      <div className="card">
+      <div className="card relative">
         {imgSrc && <img src={imgSrc} alt={title || ''} />}
         <div className="card-inner">
           {title && (

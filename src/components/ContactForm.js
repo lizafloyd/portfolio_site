@@ -125,7 +125,7 @@ class ContactForm extends Component {
             <input
               type="submit"
               value="Send"
-              className="background-yellow bold"
+              className="background-yellow bold accent button"
               onClick={(event) => this.handleFormSubmit(event)}
             />
           </div>
