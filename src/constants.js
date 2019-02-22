@@ -1,3 +1,41 @@
+import nzme from './assets/logos/nzme.png';
+import leparisien from './assets/logos/leparisien.png';
+import raycom from './assets/logos/raycom.png';
+import santafe from './assets/logos/santafe.png';
+import sightline from './assets/logos/sightline.png';
+import tgam from './assets/logos/tgam.png';
+import lily from './assets/logos/the_lily.png';
+import post from './assets/logos/washington_post.png';
+import wweek from './assets/logos/wweek_dark.png';
+
+export const partners = [
+  {src: nzme, alt: 'New Zealand Herald', href: 'https://www.nzherald.co.nz/'},
+  {src: leparisien, alt: 'Le Parisien', href: 'http://www.leparisien.fr/'},
+  {src: raycom, alt: 'Raycom Media Group', href: 'http://www.waff.com/'},
+  {src: santafe, alt: 'Santa Fe Reporter', href: 'https://www.sfreporter.com/'},
+  {
+    src: sightline,
+    alt: 'Sightline Media Group (MCO)',
+    href: 'https://www.militarytimes.com/',
+  },
+  {
+    src: tgam,
+    alt: 'Toronto Globe and Mail',
+    href: 'https://www.theglobeandmail.com/',
+  },
+  {
+    src: lily,
+    alt: 'The Lily, a publication of the Washington Post',
+    href: 'https://www.thelily.com/',
+  },
+  {
+    src: post,
+    alt: 'Washington Post',
+    href: 'https://www.washingtonpost.com/regional/',
+  },
+  {src: wweek, alt: 'Wilamette Week', href: 'https://www.wweek.com/homepage/'},
+];
+
 /** Array containing pins for locations I've been. */
 export const mapPins = [
   {name: 'Washington, DC', lat: 38.9072, lng: -77.0369},
@@ -21,8 +59,4 @@ export const mapPins = [
   {name: 'Rome', lat: 41.902782, lng: 12.496366},
   {name: 'Athens', lat: 37.98381, lng: 23.727539},
   {name: 'Zurich', lat: 47.3769, lng: 8.5417},
-];
-
-export const partners = [
-  {src: './assets/logos/nzme.png', alt: 'New Zealand Herald'},
 ];
