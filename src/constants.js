@@ -22,3 +22,7 @@ export const mapPins = [
   {name: 'Athens', lat: 37.98381, lng: 23.727539},
   {name: 'Zurich', lat: 47.3769, lng: 8.5417},
 ];
+
+export const partners = [
+  {src: './assets/logos/nzme.png', alt: 'New Zealand Herald'},
+];

@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
 import leparisien from '../assets/logos/leparisien.png';
-import nzme from '../assets/logos/nzme.png';
 import raycom from '../assets/logos/raycom.png';
 import santafe from '../assets/logos/santafe.png';
 import sightline from '../assets/logos/sightline.png';
@@ -9,6 +8,8 @@ import tgam from '../assets/logos/tgam.png';
 import lily from '../assets/logos/the_lily.png';
 import post from '../assets/logos/washington_post.png';
 import wweek from '../assets/logos/wweek_dark.png';
+
+import {partners} from '../constants';
 
 /**
  * Slider settings.
@@ -32,6 +33,11 @@ export const settings = {
  */
 const PartnerSlider = () => (
   <Slider {...settings}>
+    {partners.map((partner, index) => (
+      <div key={index}>
+        <img src={partner.src} alt={partner.alt} className="responsive-image" />
+      </div>
+    ))}
     <div>
       <img src={leparisien} className="responsive-image" alt="Le Parisien" />
     </div>
@@ -41,9 +47,6 @@ const PartnerSlider = () => (
         className="responsive-image"
         alt="The Lily, a publication of the Washington Post"
       />
-    </div>
-    <div>
-      <img src={nzme} className="responsive-image" alt="New Zealand Herald" />
     </div>
     <div>
       <img src={raycom} className="responsive-image" alt="Raycom Media Group" />
