@@ -103,4 +103,13 @@
 //* Slick Slider
 .slick-slider {
   margin-bottom: 2rem;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+//* Ensures the current slide is clickable.
+.slick-active {
+  z-index: 999;
 }
