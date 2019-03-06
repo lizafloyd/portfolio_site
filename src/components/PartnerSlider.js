@@ -27,7 +27,6 @@ const PartnerSlider = (props) => (
     {props.partners.map((partner, index) => (
       <div key={index}>
         <a
-          className="liza"
           href={partner.href}
           target="_blank"
           rel="noopener noreferrer"
