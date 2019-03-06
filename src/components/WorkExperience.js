@@ -1,5 +1,6 @@
 import React from 'react';
 import PartnerSlider from './PartnerSlider';
+import {partners} from '../constants';
 
 /**
  * Renders the ContactForm component.
@@ -8,7 +9,7 @@ import PartnerSlider from './PartnerSlider';
 const WorkExperience = () => (
   <div className="header row margin-horizontal">
     <div className="small-5 extra-small-12 order-2">
-      <PartnerSlider />
+      <PartnerSlider partners={partners} />
     </div>
     <div className="small-7 extra-small-12">
       <h2 className="subtitle border-bottom-yellow">Work Experience</h2>
