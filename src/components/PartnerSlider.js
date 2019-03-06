@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from 'react-slick';
-import {partners} from '../constants';
 
 /**
  * Slider settings.
@@ -20,11 +19,12 @@ export const settings = {
 
 /**
  * Renders the main App components.
+ * @param {object} props - Component props
  * @returns {string} - Returns JSX representation of the PartnerSlider component.
  */
-const PartnerSlider = () => (
+const PartnerSlider = (props) => (
   <Slider {...settings}>
-    {partners.map((partner, index) => (
+    {props.partners.map((partner, index) => (
       <div key={index}>
         <a
           className="liza"
