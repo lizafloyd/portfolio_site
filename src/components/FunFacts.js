@@ -30,9 +30,6 @@ const FunFacts = () => (
         </li>
         <li>I can quote The Lord of the Rings from memory.</li>
         <li>
-          I make a mean martini. But only gin. Vodka martinis aren't a thing.
-        </li>
-        <li>
           I grew up in Yokohama, Japan, a suburb of Tokyo. I can't really speak
           Japanese anymore but I do correct the subtitles sometimes.
         </li>
