@@ -85,29 +85,6 @@ class App extends Component {
               Let's Get in Touch
             </h2>
             <p>
-              I've always loved solving puzzles, and getting lost in learning.
-              But the thought never crossed my mind I could do both for a living
-              until a couple years after college, when fundraising had felt
-              disingenuous as a career, and bartending was getting boring. I
-              wanted work that could make a difference, where I would be
-              challenged and learning every day of my life. But me? A developer?
-              Don't you have to be a genius wunderkint to be a dev
-              professionally?
-            </p>
-            <p>
-              Well, as it happens, thank goodness, no! Tech should work for
-              people, and so people of all walks of life should make tech work.
-              So I rolled up my sleeves and dived in deep. Since then, I've
-              worked for a few years in the SaaS/content management field, and
-              have worked to give journalists around the world access to better
-              and better tools. That's something I hope to always have in my
-              career: the ability to make folks' lives better with technology.
-            </p>
-            <p>
-              In the meantime, I'll keep doing what I can to make tech a
-              welcoming place, and to challenge myself, on- and off-line.
-            </p>
-            <p>
               New to tech and need a confidence boost? Want to work together on
               a project? Need meetup suggestions? Or just hoping to crib my
               martini methods? Please feel free to reach out! I would be more
