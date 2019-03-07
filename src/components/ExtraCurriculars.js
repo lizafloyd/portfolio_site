@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './Card';
-import educationImg from '../assets/images/card_03.jpeg';
-import projectImg from '../assets/images/card_02.jpeg';
-import curricularImg from '../assets/images/card_01.jpeg';
+import educationImg from '../assets/images/ga.jpg';
+import projectImg from '../assets/images/projects.jpg';
+import curricularImg from '../assets/images/card_02.jpeg';
 
 /**
  * Renders the ContactForm component.
@@ -15,20 +15,22 @@ const ExtraCurriculars = () => (
       <div className="small-4 extra-small-12 margin bottom single">
         <Card
           title="Education"
-          subtitle="I'm educated and super cool!"
+          subtitle="Anthropologist by degree. Developer by vocation."
           color="yellow"
           items={[
             {
               title: 'Web Development Immersive Participant',
-              description: 'General Assembly',
+              description: 'General Assembly, DC',
+              link: 'https://generalassemb.ly/',
             },
             {
               title: "Bachelor's Degree, Anthropology",
-              description: 'George Washington University',
+              description: 'George Washington University, DC',
+              link: 'https://www.gwu.edu/',
             },
             {
               title: 'High School',
-              description: 'St. Pauls High School for Girls',
+              description: 'St. Pauls High School for Girls, MD',
             },
           ]}
           emoji={'🎓'}
@@ -39,7 +41,7 @@ const ExtraCurriculars = () => (
       <div className="small-4 extra-small-12 margin bottom single">
         <Card
           title="Projects"
-          subtitle="I have worked on some projects"
+          subtitle="Some fun work I've enjoyed - have a look!"
           color="red"
           items={[
             {
@@ -51,12 +53,12 @@ const ExtraCurriculars = () => (
             {
               title: 'DC Metro Google Assistant App',
               description:
-                'Contributed to the DC Metro Google Assistant application.',
+                'Contribute to the DC Metro Google Assistant application.',
               link:
                 'https://github.com/JamesIves/dc-metro-google-assistant-action',
             },
           ]}
-          emoji={'🥑'}
+          emoji={'🚀'}
           imgSrc={projectImg}
         />
       </div>
@@ -64,17 +66,20 @@ const ExtraCurriculars = () => (
       <div className="small-4 extra-small-12 margin bottom single">
         <Card
           title="Extra Curricular"
-          subtitle="I have done so much stuff"
+          subtitle="I love contributing to the DC tech community, which is one of the most welcoming groups of crazy kids around."
           color="blue"
           items={[
             {
               title: 'DCJS Co-Organizer',
               description:
-                'Assisted with organizing DCJS, the districts largest JavaScript meetup.',
+                "Assist with organizing DCJS, one of the district's largest front end meetup. All are welcome!",
+              link: 'https://www.meetup.com/DC-JavaScript/',
             },
             {
               title: 'Google Women Techmaker Member',
-              description: 'Member of the Google Techmaker community.',
+            },
+            {
+              title: 'Women Who Code DC Member',
             },
           ]}
           emoji={'🍋'}
