@@ -23,7 +23,7 @@ const WorkExperience = () => (
         content management platform vendors. The work is an interesting mix of
         product, agency, and consultancy work, so I've worn every hat you can
         imagine. I've owned projects, joined sales calls, lead teams, faced down
-        timelines, managed client accounts, developed complex renderings--you
+        timelines, managed client accounts, developed complex renderings - you
         name it, I've done it. I started out a few years ago as a Junior
         Developer, and have since held titles as Solutions Engineer, Midlevel
         Developer, and now as Technical Lead, delivering a full site build out
@@ -35,9 +35,9 @@ const WorkExperience = () => (
         my work, select a partner logo to the left to see their site.
       </p>
       <p>
-        Before I was a developer, I've worked in fundraising and as a bartender.
+        Before I was a developer, I worked in fundraising and as a bartender.
         And I ought to tell you, not to brag, just so you know: I serve a hell
-        of a Bud.
+        of a Budweiser.
       </p>
     </div>
   </div>

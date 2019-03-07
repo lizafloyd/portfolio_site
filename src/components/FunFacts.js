@@ -13,12 +13,33 @@ const FunFacts = () => (
       <ul>
         <li>
           I've been all these places{' '}
-          <span role="img" aria-label="Point right emoji">
+          <span
+            role="img"
+            className="hidden-mobile"
+            aria-label="Point right emoji"
+          >
             👉
           </span>
+          <span
+            role="img"
+            className="hidden-desktop"
+            aria-label="Point up emoji"
+          >
+            👇
+          </span>
         </li>
-        <li>Second fun fact</li>
-        <li>Another fun fact</li>
+        <li>I can quote The Lord of the Rings from memory.</li>
+        <li>
+          I make a mean martini. But only gin. Vodka martinis aren't a thing.
+        </li>
+        <li>
+          I grew up in Yokohama, Japan, a suburb of Tokyo. I can't really speak
+          Japanese anymore but I do correct the subtitles sometimes.
+        </li>
+        <li>
+          Julia Child is my spirit guide. Reach out if you ever have a mad
+          desire to learn way more about her than you'll ever need to know!
+        </li>
       </ul>
     </div>
     <div className="small-5 extra-small-12">

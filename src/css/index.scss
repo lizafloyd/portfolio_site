@@ -27,10 +27,17 @@ $content-width: 1160px;
 
 //* Breakpoint
 $on-laptop: 1024px;
+$on-mobile: 48em;
 
 //* Media Screen Mixin
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin media-min($min) {
+  @media screen and (min-width: $min) {
     @content;
   }
 }
@@ -110,5 +117,6 @@ a {
 @import './typography';
 @import './header';
 @import './card';
+@import './visibility';
 
 

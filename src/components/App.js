@@ -85,24 +85,35 @@ class App extends Component {
               Let's Get in Touch
             </h2>
             <p>
-              Normally, both your asses would be dead as fucking fried chicken,
-              but you happen to pull this shit while I'm in a transitional
-              period so I don't wanna kill you, I wanna help you. But I can't
-              give you this case, it don't belong to me. Besides, I've already
-              been through too much shit this morning over this case to hand it
-              over to your dumb ass.{' '}
+              I've always loved solving puzzles, and getting lost in learning.
+              But the thought never crossed my mind I could do both for a living
+              until a couple years after college, when fundraising had felt
+              disingenuous as a career, and bartending was getting boring. I
+              wanted work that could make a difference, where I would be
+              challenged and learning every day of my life. But me? A developer?
+              Don't you have to be a genius wunderkint to be a dev
+              professionally?
+            </p>
+            <p>
+              Well, as it happens, thank goodness, no! Tech should work for
+              people, and so people of all walks of life should make tech work.
+              So I rolled up my sleeves and dived in deep. Since then, I've
+              worked for a few years in the SaaS/content management field, and
+              have worked to give journalists around the world access to better
+              and better tools. That's something I hope to always have in my
+              career: the ability to make folks' lives better with technology.
+            </p>
+            <p>
+              In the meantime, I'll keep doing what I can to make tech a
+              welcoming place, and to challenge myself, on- and off-line.
+            </p>
+            <p>
+              New to tech and need a confidence boost? Want to work together on
+              a project? Need meetup suggestions? Or just hoping to crib my
+              martini methods? Please feel free to reach out! I would be more
+              than happy to grab a coffee and chat.
             </p>
 
-            <p>
-              You think water moves fast? You should see ice. It moves like it
-              has a mind. Like it knows it killed the world once and got a taste
-              for murder. After the avalanche, it took us a week to climb out.
-              Now, I don't know exactly when we turned on each other, but I know
-              that seven of us survived the slide... and only five made it out.
-              Now we took an oath, that I'm breaking now. We said we'd say it
-              was the snow that killed the other two, but it wasn't. Nature is
-              lethal but it doesn't hold a candle to man.{' '}
-            </p>
             <ContactForm />
           </section>
         </main>

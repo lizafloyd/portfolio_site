@@ -1,0 +1,11 @@
+.hidden-mobile {
+  @include media-query($on-mobile) {
+    display: none;
+  }
+};
+
+.hidden-desktop {
+  @include media-min($on-mobile) {
+    display: none;
+  }
+};
