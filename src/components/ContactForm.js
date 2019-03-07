@@ -63,7 +63,7 @@ class ContactForm extends Component {
           Some required fields are missing!
         </div>
         <form
-          className="row margin-horizontal"
+          className="row"
           ref="form"
           action={`https://formspree.io/${email}`}
           method="POST"
