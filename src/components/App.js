@@ -31,7 +31,6 @@ class App extends Component {
           <section className="container">
             <div className="header row align-center margin-horizontal">
               <div className="small-9 extra-small-12">
-                <h1 className="header-text title">Liza Floyd</h1>
                 <h2 className="accent">
                   I make websites and lattes. The websites are prettier but the
                   lattes taste better.

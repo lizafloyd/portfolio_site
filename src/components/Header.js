@@ -18,6 +18,7 @@ const Header = ({skipLink, bannerClasses, profileImage, profileAlt}) => (
     <header id="top" role="banner">
       <div className={bannerClasses}>
         <div className="container relative">
+          <h1 className="header-text title">Liza Floyd</h1>
           <img
             src={profileImage}
             alt={profileAlt || ''}
