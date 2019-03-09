@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/washington_post.39b16666.png"
   },
   {
-    "revision": "ef6a4f11f185b345a478",
-    "url": "/portfolio_site/static/css/main.d018ffcc.chunk.css"
+    "revision": "c01c879e5b7d1b7e6da6",
+    "url": "/portfolio_site/static/css/main.dc41a12f.chunk.css"
   },
   {
     "revision": "f10d57ccedbbc6240a63",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/the_lily.2ce004c1.png"
   },
   {
-    "revision": "ef6a4f11f185b345a478",
-    "url": "/portfolio_site/static/js/main.ef6a4f11.chunk.js"
+    "revision": "c01c879e5b7d1b7e6da6",
+    "url": "/portfolio_site/static/js/main.c01c879e.chunk.js"
   },
   {
     "revision": "68fc815f5cbc690c813f65100555720b",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/traindoor.1dbf8e2c.jpg"
   },
   {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/portfolio_site/static/media/slick.d41f55a7.ttf"
+  },
+  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/portfolio_site/static/media/slick.ced611da.eot"
   },
@@ -72,15 +76,11 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/portfolio_site/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "679a8309bb602154d6bd",
     "url": "/portfolio_site/static/css/2.ca61aaa4.chunk.css"
   },
   {
-    "revision": "df65179420fafecb66230ba2a9960053",
+    "revision": "555a1d2c2beb558e6d0c16a62e38f31c",
     "url": "/portfolio_site/index.html"
   }
 ];
