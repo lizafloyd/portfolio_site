@@ -27,6 +27,15 @@
   }
 }
 
+.align-center {
+  align-items: center;
+}
+
+.vertical-align {
+  align-items: center;
+  justify-content: center;
+}
+
 
 //* Position
 .relative {
@@ -41,10 +50,6 @@
 .responsive-image {
   display: block;
   max-width: 100%;
-}
-
-.align-center {
-  align-items: center;
 }
 
 .full-width {

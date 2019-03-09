@@ -7,7 +7,7 @@ import {partners} from '../constants';
  * @returns {string} - Returns JSX representation of the WorkExperience component.
  */
 const WorkExperience = () => (
-  <div className="header row margin-horizontal">
+  <div className="header row margin-horizontal vertical-align">
     <div className="small-5 extra-small-12 order-2">
       <PartnerSlider partners={partners} />
     </div>
