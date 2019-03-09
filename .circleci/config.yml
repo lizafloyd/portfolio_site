@@ -12,15 +12,30 @@ jobs:
       - run:
           name: Installing Dependencies
           command: yarn install
-      - run:
-          name: Linting build
-          command: yarn lint
       - save_cache:
           paths:
             - ~/node_modules
           key: v1-dependencies-{{ checksum "./package.json" }}
+
+  test:
+    docker:
+      - image: circleci/node:8.10.0
+    steps:
+      - run:
+          name: Linting build
+          command: yarn lint
       - run:
           name: Testing build
           command: yarn test
-    branches:
-      ignore: gh-pages
+
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: gh-pages
