@@ -1,4 +1,7 @@
 .banner {
+  @include media-query($on-mobile) {
+    background-position: center top;
+  };
   background-image: url('../assets/images/traindoor.jpg');
   background-position: center 30%;
   background-repeat: no-repeat;
@@ -8,6 +11,11 @@
 }
 
 .header-image {
+  @include media-query($on-mobile) {
+    left: 0;
+    margin: auto;
+    right: 0;
+  };
   border: 6px $white solid;
   border-radius: 50%;
   max-height: 18rem;
@@ -24,7 +32,7 @@
   position: absolute;
   text-shadow: 4px 4px $black;
   top: 17rem;
-  z-index: 100;
+  z-index: 200;
 }
 
 .icon-container {

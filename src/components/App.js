@@ -31,7 +31,6 @@ class App extends Component {
           <section className="container">
             <div className="header row align-center margin-horizontal">
               <div className="small-9 extra-small-12">
-                <h1 className="header-text title">Liza Floyd</h1>
                 <h2 className="accent">
                   I make websites and lattes. The websites are prettier but the
                   lattes taste better.
@@ -44,7 +43,7 @@ class App extends Component {
                   on Rails. If I'm not learning, I'm not happy.
                 </p>
               </div>
-              <div className="social-icons margin-horizontal full-width">
+              <div className="social-icons margin top single full-width">
                 <div className="icon-container extra-small-12 small-6">
                   <a
                     href={process.env.REACT_APP_LINKEDIN_ANCHOR}
