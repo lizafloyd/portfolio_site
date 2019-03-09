@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/washington_post.39b16666.png"
   },
   {
-    "revision": "c01c879e5b7d1b7e6da6",
+    "revision": "b5a28f52a563f535cdaa",
     "url": "/portfolio_site/static/css/main.dc41a12f.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/js/runtime~main.f10d57cc.js"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/portfolio_site/static/media/slick.f97e3bbf.svg"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/portfolio_site/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "679a8309bb602154d6bd",
-    "url": "/portfolio_site/static/js/2.679a8309.chunk.js"
+    "revision": "c39d3517b9153db7f46b",
+    "url": "/portfolio_site/static/js/2.c39d3517.chunk.js"
   },
   {
     "revision": "8d42fb038d8a6f665aa32be60f895d5d",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/the_lily.2ce004c1.png"
   },
   {
-    "revision": "c01c879e5b7d1b7e6da6",
-    "url": "/portfolio_site/static/js/main.c01c879e.chunk.js"
+    "revision": "b5a28f52a563f535cdaa",
+    "url": "/portfolio_site/static/js/main.b5a28f52.chunk.js"
   },
   {
     "revision": "68fc815f5cbc690c813f65100555720b",
@@ -64,23 +64,23 @@ self.__precacheManifest = [
     "url": "/portfolio_site/static/media/traindoor.1dbf8e2c.jpg"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/portfolio_site/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/portfolio_site/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/portfolio_site/static/media/slick.b7c9e1e4.woff"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/portfolio_site/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "679a8309bb602154d6bd",
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/portfolio_site/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "c39d3517b9153db7f46b",
     "url": "/portfolio_site/static/css/2.ca61aaa4.chunk.css"
   },
   {
-    "revision": "555a1d2c2beb558e6d0c16a62e38f31c",
+    "revision": "3fd62a83f1e042d1352b3f4d3178ae8e",
     "url": "/portfolio_site/index.html"
   }
 ];
