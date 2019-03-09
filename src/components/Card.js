@@ -58,7 +58,11 @@ class Card extends Component {
                 <li key={index}>
                   <span className="list-title block">
                     {item.link ? (
-                      <a href={item.link} rel="noopener">
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {item.title}
                       </a>
                     ) : (
