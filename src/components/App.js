@@ -43,7 +43,7 @@ class App extends Component {
                   on Rails. If I'm not learning, I'm not happy.
                 </p>
               </div>
-              <div className="social-icons margin-horizontal full-width">
+              <div className="social-icons margin top single full-width">
                 <div className="icon-container extra-small-12 small-6">
                   <a
                     href={process.env.REACT_APP_LINKEDIN_ANCHOR}
