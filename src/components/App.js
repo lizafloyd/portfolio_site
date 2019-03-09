@@ -46,18 +46,31 @@ class App extends Component {
               </div>
               <div className="social-icons margin-horizontal full-width">
                 <div className="icon-container extra-small-12 small-6">
-                  <a href={process.env.REACT_APP_LINKEDIN_ANCHOR} role="button">
+                  <a
+                    href={process.env.REACT_APP_LINKEDIN_ANCHOR}
+                    role="button"
+                    aria-label="linkedin link"
+                  >
                     <LinkedInIcon />
                   </a>
-                  <a href={process.env.REACT_APP_GITHUB_ANCHOR} role="button">
+                  <a
+                    href={process.env.REACT_APP_GITHUB_ANCHOR}
+                    role="button"
+                    aria-label="github link"
+                  >
                     <GithubIcon />
                   </a>
-                  <a href={process.env.REACT_APP_TWITTER_ANCHOR} role="button">
+                  <a
+                    href={process.env.REACT_APP_TWITTER_ANCHOR}
+                    role="button"
+                    aria-label="twitter link"
+                  >
                     <TwitterIcon />
                   </a>
                   <a
                     href={process.env.REACT_APP_STACKOVERFLOW_ANCHOR}
                     role="button"
+                    aria-label="stack overflow link"
                   >
                     <StackOverflowIcon />
                   </a>

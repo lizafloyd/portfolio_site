@@ -1,6 +1,7 @@
 //* Colors
 $gray: #dfdfdf;
 $gray-light: #f9f9f9;
+$gray-mid: #dcdcdc;
 $gray-dark: #f9f9f9;
 $border-color: #dcdcdc;
 $blue-light: #b3fdff;
@@ -9,7 +10,9 @@ $yellow: #fdffb3;
 $white: #fff;
 $black: #000;
 $train-red: #e84807;
+$train-red-dark: #b93603;
 $train-yellow: #ffb000;
+$train-yellow-dark: #c08403;
 $train-blue: #02219e;
 $black: #000;
 $card-shadow-25: rgba(0, 0, 0, .25);
@@ -99,7 +102,7 @@ button {
 }
 
 a {
-  color: $train-red;
+  color: $train-red-dark;
   text-decoration: none;
 
   &:visited {
