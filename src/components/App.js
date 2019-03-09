@@ -107,8 +107,8 @@ class App extends Component {
             <p>
               New to tech and need a confidence boost? Want to work together on
               a project? Need meetup suggestions? Or just hoping to crib my
-              latte methods? Please feel free to reach out! I would be more
-              than happy to grab a coffee and chat.
+              latte methods? Please feel free to reach out! I would be more than
+              happy to grab a coffee and chat.
             </p>
 
             <ContactForm />

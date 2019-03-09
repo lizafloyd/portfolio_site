@@ -21,7 +21,6 @@ $card-shadow-21: rgba(0, 0, 0, .21);
 //* Fonts
 $title-font: 'Great Vibes', Times, cursive;
 $text-font: 'Raleway', Arial, sans-serif;
-$subtitle-font: 'KoHo', Arial, sans-serif;
 $accent-font: 'Saira Extra Condensed', Arial, sans-serif;
 
 //* Spacing
@@ -80,6 +79,7 @@ textarea,
 button {
   border: 1px solid $black;
   border-radius: 4px;
+  font-family: $text-font;
   font-size: 1rem;
   margin-bottom: 15px;
   padding-bottom: 5px;
@@ -95,10 +95,6 @@ button {
     cursor: pointer;
     font-size: 1.2rem;
   }
-}
-
-button {
-  font-family: $subtitle-font;
 }
 
 a {
