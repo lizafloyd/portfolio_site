@@ -7,6 +7,7 @@ import tgam from './assets/logos/tgam.png';
 import lily from './assets/logos/the_lily.png';
 import post from './assets/logos/washington_post.png';
 import wweek from './assets/logos/wweek_dark.png';
+import slt from './assets/logos/salt_lake_tribune.png';
 
 export const partners = [
   {src: nzme, alt: 'New Zealand Herald', href: 'https://www.nzherald.co.nz/'},
@@ -34,6 +35,7 @@ export const partners = [
     href: 'https://www.washingtonpost.com/regional/',
   },
   {src: wweek, alt: 'Wilamette Week', href: 'https://www.wweek.com/homepage/'},
+  {src: slt, alt: 'Salt Lake Tribune', href: 'https://www.sltrib.com/'},
 ];
 
 /** Array containing pins for locations I've been. */
