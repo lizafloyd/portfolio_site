@@ -20,12 +20,14 @@ const Footer = ({linkedIn, github, twitter, stackOverflow, copyright}) => (
     role="contentinfo"
   >
     <div className="container">
-      <div className="icon-container padding-horizontal">
+      <div className="icon-container padding-horizontal vertical-align">
         {linkedIn && (
           <a
             href={process.env.REACT_APP_LINKEDIN_ANCHOR}
             role="button"
             aria-label="linkedin link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <LinkedInIcon />
           </a>
@@ -35,6 +37,8 @@ const Footer = ({linkedIn, github, twitter, stackOverflow, copyright}) => (
             href={process.env.REACT_APP_GITHUB_ANCHOR}
             role="button"
             aria-label="github link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <GithubIcon />
           </a>
@@ -44,6 +48,8 @@ const Footer = ({linkedIn, github, twitter, stackOverflow, copyright}) => (
             href={process.env.REACT_APP_TWITTER_ANCHOR}
             role="button"
             aria-label="twitter link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <TwitterIcon />
           </a>
@@ -54,16 +60,19 @@ const Footer = ({linkedIn, github, twitter, stackOverflow, copyright}) => (
             href={process.env.REACT_APP_STACKOVERFLOW_ANCHOR}
             role="button"
             aria-label="stack overflow link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <StackOverflowIcon />
           </a>
         )}
+
+        {copyright && (
+          <div className="copyright full-width text-right">
+            © {new Date().getFullYear()} {process.env.REACT_APP_AUTHOR_NAME}
+          </div>
+        )}
       </div>
-      {copyright && (
-        <span className="copyright">
-          © {new Date().getFullYear()} {process.env.REACT_APP_AUTHOR_NAME}
-        </span>
-      )}
     </div>
   </footer>
 );
