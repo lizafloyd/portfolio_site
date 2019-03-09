@@ -4,6 +4,7 @@
   "author": "Liza Floyd",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lizafloyd.github.io/portfolio_site",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.8.4",
