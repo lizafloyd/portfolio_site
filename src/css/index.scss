@@ -25,12 +25,12 @@ $subtitle-font: 'KoHo', Arial, sans-serif;
 $accent-font: 'Saira Extra Condensed', Arial, sans-serif;
 
 //* Spacing
-$spacing-unit: 20px;
-$content-width: 1160px;
+$spacing-unit: 1.25rem;
+$content-width: 72.5rem;
 
 //* Breakpoint
-$on-laptop: 1024px;
-$on-mobile: 48em;
+$on-laptop: 64rem;
+$on-mobile: 48rem;
 
 //* Media Screen Mixin
 @mixin media-query($device) {
