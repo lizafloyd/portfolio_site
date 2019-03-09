@@ -7,7 +7,7 @@ import {mapPins} from '../constants';
  * @returns {string} - Returns JSX representation of the FunFacts component.
  */
 const FunFacts = () => (
-  <div className="header row margin-horizontal">
+  <div className="header row margin-horizontal vertical-align">
     <div className="small-7 extra-small-12">
       <h2 className="subtitle">Fun Facts</h2>
       <ul>
