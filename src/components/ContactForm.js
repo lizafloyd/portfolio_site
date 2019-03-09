@@ -100,6 +100,7 @@ class ContactForm extends Component {
               placeholder="Email..."
               value={this.state.data.email || ''}
               onChange={(event) => this.setField('email', event.target.value)}
+              aria-label="email input"
             />
           </div>
 
@@ -119,6 +120,7 @@ class ContactForm extends Component {
               rows="6"
               value={this.state.data.message || ''}
               onChange={(event) => this.setField('message', event.target.value)}
+              aria-label="contact message"
             />
           </div>
           <div className="small-10 small-offset-2 extra-small-12">

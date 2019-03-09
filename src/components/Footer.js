@@ -22,23 +22,39 @@ const Footer = ({linkedIn, github, twitter, stackOverflow, copyright}) => (
     <div className="container">
       <div className="icon-container padding-horizontal">
         {linkedIn && (
-          <a href={process.env.REACT_APP_LINKEDIN_ANCHOR} role="button">
+          <a
+            href={process.env.REACT_APP_LINKEDIN_ANCHOR}
+            role="button"
+            aria-label="linkedin link"
+          >
             <LinkedInIcon />
           </a>
         )}
         {github && (
-          <a href={process.env.REACT_APP_GITHUB_ANCHOR} role="button">
+          <a
+            href={process.env.REACT_APP_GITHUB_ANCHOR}
+            role="button"
+            aria-label="github link"
+          >
             <GithubIcon />
           </a>
         )}
         {twitter && (
-          <a href={process.env.REACT_APP_TWITTER_ANCHOR} role="button">
+          <a
+            href={process.env.REACT_APP_TWITTER_ANCHOR}
+            role="button"
+            aria-label="twitter link"
+          >
             <TwitterIcon />
           </a>
         )}
 
         {stackOverflow && (
-          <a href={process.env.REACT_APP_STACKOVERFLOW_ANCHOR} role="button">
+          <a
+            href={process.env.REACT_APP_STACKOVERFLOW_ANCHOR}
+            role="button"
+            aria-label="stack overflow link"
+          >
             <StackOverflowIcon />
           </a>
         )}

@@ -10,6 +10,8 @@ const Loader = ({width, height, fill, style}) => (
     viewBox={`0 0 100 100`}
     preserveAspectRatio="xMidYMid"
     style={style}
+    role="img"
+    aria-label="loader icon"
   >
     <rect x="0" y="0" width="100" height="100" fill="none" />
     <rect

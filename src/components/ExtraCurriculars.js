@@ -16,7 +16,7 @@ const ExtraCurriculars = () => (
         <Card
           title="Education"
           subtitle="Anthropologist by degree. Developer by vocation."
-          color="yellow"
+          color="yellow-dark"
           items={[
             {
               title: 'Web Development Immersive Participant',
@@ -42,7 +42,7 @@ const ExtraCurriculars = () => (
         <Card
           title="Projects"
           subtitle="Some fun work I've enjoyed - have a look!"
-          color="red"
+          color="red-dark"
           items={[
             {
               title: 'Portfolio',
