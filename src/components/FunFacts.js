@@ -11,6 +11,15 @@ const FunFacts = () => (
     <div className="small-7 extra-small-12">
       <h2 className="subtitle">Fun Facts</h2>
       <ul>
+        <li>I can quote The Lord of the Rings from memory.</li>
+        <li>
+          I grew up in Yokohama, Japan, a suburb of Tokyo. I can't really speak
+          Japanese anymore but I do correct the subtitles sometimes.
+        </li>
+        <li>
+          Julia Child is my spirit guide. Reach out if you ever have a mad
+          desire to learn way more about her than you'll ever need to know!
+        </li>
         <li>
           I've been all these places{' '}
           <span
@@ -27,15 +36,6 @@ const FunFacts = () => (
           >
             👇
           </span>
-        </li>
-        <li>I can quote The Lord of the Rings from memory.</li>
-        <li>
-          I grew up in Yokohama, Japan, a suburb of Tokyo. I can't really speak
-          Japanese anymore but I do correct the subtitles sometimes.
-        </li>
-        <li>
-          Julia Child is my spirit guide. Reach out if you ever have a mad
-          desire to learn way more about her than you'll ever need to know!
         </li>
       </ul>
     </div>
