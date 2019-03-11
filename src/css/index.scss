@@ -97,6 +97,10 @@ button {
   }
 }
 
+button {
+  appearance: none;
+}
+
 a {
   color: $train-red-dark;
   text-decoration: none;
