@@ -7,7 +7,7 @@
   "static/js/1.e2b0962c.chunk.js.map": "/static/js/1.e2b0962c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.scss": "/static/media/slick.b7c9e1e4.woff",
+  "static/media/index.scss": "/static/media/slick.d41f55a7.ttf",
   "static/media/leparisien.png": "/static/media/leparisien.8d42fb03.png",
   "static/media/santafe.png": "/static/media/santafe.137caac2.png",
   "static/media/tgam.png": "/static/media/tgam.4a1ea470.png",
@@ -21,6 +21,6 @@
   "static/css/main.ac19c1c7.chunk.css.map": "/static/css/main.ac19c1c7.chunk.css.map",
   "static/css/1.563943ba.chunk.css.map": "/static/css/1.563943ba.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.bf56f7ea74f9d60213e4a5f55b2d246d.js": "/precache-manifest.bf56f7ea74f9d60213e4a5f55b2d246d.js",
+  "precache-manifest.b3f0c2cf15428f09f0c9176ab12940a6.js": "/precache-manifest.b3f0c2cf15428f09f0c9176ab12940a6.js",
   "service-worker.js": "/service-worker.js"
 }
