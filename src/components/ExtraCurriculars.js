@@ -47,7 +47,7 @@ const ExtraCurriculars = () => (
             {
               title: 'Portfolio',
               description:
-                'Built with React, the website you are currently viewing can be seen on Github',
+                'Built with React, the website you are currently viewing can be seen on Github.',
               link: 'http://github.com/LizaFloyd/portfolio_site',
             },
             {
@@ -72,7 +72,7 @@ const ExtraCurriculars = () => (
             {
               title: 'DCJS Co-Organizer',
               description:
-                "Assist with organizing DCJS, one of the district's largest front end meetup. All are welcome!",
+                "Assist with organizing DCJS, one of the district's largest front end meetups. All are welcome!",
               link: 'https://www.meetup.com/DC-JavaScript/',
             },
             {
