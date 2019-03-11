@@ -13,7 +13,6 @@
 .subtitle {
   font-family: $accent-font;
   font-size: 2rem;
-  line-height: 1rem;
 
   &::after {
     border-bottom: 2px solid $train-yellow;
@@ -31,6 +30,7 @@
 
 .accent {
   font-family: $accent-font;
+  line-height: 1rem;
 }
 
 .bold {
