@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/washington_post.39b16666.png"
   },
   {
-    "revision": "bf69e40a7423de5026c7",
+    "revision": "1f18a36b635b1652933f",
     "url": "/static/css/main.ac19c1c7.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/the_lily.2ce004c1.png"
   },
   {
-    "revision": "bf69e40a7423de5026c7",
-    "url": "/static/js/main.bf69e40a.chunk.js"
+    "revision": "1f18a36b635b1652933f",
+    "url": "/static/js/main.1f18a36b.chunk.js"
   },
   {
     "revision": "68fc815f5cbc690c813f65100555720b",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.563943ba.chunk.css"
   },
   {
-    "revision": "8c85ff87749427f7e6e095714c317be8",
+    "revision": "ed9a1093157c1de1c21e21fb8fdd069e",
     "url": "/index.html"
   }
 ];
