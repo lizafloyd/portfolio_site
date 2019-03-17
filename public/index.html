@@ -8,12 +8,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#000000" />
-    <meta property="og:title" content="%REACT_APP_SITE_NAME%">
-    <meta property="og:site_name" content="%REACT_APP_SITE_NAME%">
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="%REACT_APP_SITE_NAME%">
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="%REACT_APP_SITE_NAME%">
+    <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="%REACT_APP_SITE_DESCRIPTION%">
     <meta name="twitter:title" content="%REACT_APP_SITE_NAME%" />
     <meta name="description" content="%REACT_APP_SITE_DESCRIPTION%">
     <meta name="twitter:description" content="%REACT_APP_SITE_DESCRIPTION%" />
-    <meta property="og:description" content="%REACT_APP_SITE_DESCRIPTION%">
     <meta name="keywords" content="%REACT_APP_SITE_KEYWORDS%">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@%REACT_APP_TWITTER_USERNAME%">
@@ -27,12 +28,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="msapplication-starturl" content="/">
     <meta name="author" content="%REACT_APP_AUTHOR_NAME%" />
-    <meta property="og:locale" content="en_US" />
     <meta name="google-site-verification" content="%REACT_APP_GOOGLE_VERIFICATION%" />
     <title>%REACT_APP_SITE_NAME%</title>
 
     <!-- Favicons, Shortcuts, etc -->
-    <meta property="og:image" content="%PUBLIC_URL%/meta.png">
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="%PUBLIC_URL%/meta.png">
     <meta name="twitter:image" content="%PUBLIC_URL%/meta.png" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="canonical" href="%REACT_APP_SITE_URL%">
