@@ -7,7 +7,7 @@
   "homepage": "https://lizafloyd.com",
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.8.4",
+    "react": "^16.9.0",
     "react-dom": "^16.8.4",
     "react-google-maps": "^9.4.5",
     "react-scripts": "2.1.8",
