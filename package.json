@@ -19,7 +19,7 @@
     "enzyme-adapter-react-16": "*",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-react": "^7.20.3",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
