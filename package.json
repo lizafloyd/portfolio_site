@@ -10,7 +10,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-google-maps": "^9.4.5",
-    "react-scripts": "2.1.8",
+    "react-scripts": "3.4.2",
     "react-slick": "^0.23.2",
     "slick-carousel": "^1.8.1"
   },
