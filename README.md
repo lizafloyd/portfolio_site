@@ -8,4 +8,6 @@ The project can be initialized by running `yarn install` followed by `yarn start
 
 You can build a production-ready version by running `yarn build` which will compile the application to the `/build` directory. Unit tests can be run using the `yarn test` command.
 
+## Helpful Hints 💡
 
+* Run `yarn format` and `yarn lint` before pushing up to a branch. This ensures your linting steps will pass.

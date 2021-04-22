@@ -1,3 +1,4 @@
+import atlantic from './assets/logos/the-atlantic.png';
 import nzme from './assets/logos/nzme.png';
 import leparisien from './assets/logos/leparisien.png';
 import raycom from './assets/logos/raycom.png';
@@ -10,6 +11,17 @@ import wweek from './assets/logos/wweek_dark.png';
 import slt from './assets/logos/salt_lake_tribune.png';
 
 export const partners = [
+  {src: atlantic, alt: 'The Atlantic', href: 'https://www.theatlantic.com/'},
+  {
+    src: post,
+    alt: 'Washington Post',
+    href: 'https://www.washingtonpost.com/regional/',
+  },
+  {
+    src: lily,
+    alt: 'The Lily, a publication of the Washington Post',
+    href: 'https://www.thelily.com/',
+  },
   {src: nzme, alt: 'New Zealand Herald', href: 'https://www.nzherald.co.nz/'},
   {src: leparisien, alt: 'Le Parisien', href: 'http://www.leparisien.fr/'},
   {src: raycom, alt: 'Raycom Media Group', href: 'http://www.waff.com/'},
@@ -23,16 +35,6 @@ export const partners = [
     src: tgam,
     alt: 'Toronto Globe and Mail',
     href: 'https://www.theglobeandmail.com/',
-  },
-  {
-    src: lily,
-    alt: 'The Lily, a publication of the Washington Post',
-    href: 'https://www.thelily.com/',
-  },
-  {
-    src: post,
-    alt: 'Washington Post',
-    href: 'https://www.washingtonpost.com/regional/',
   },
   {src: wweek, alt: 'Wilamette Week', href: 'https://www.wweek.com/homepage/'},
   {src: slt, alt: 'Salt Lake Tribune', href: 'https://www.sltrib.com/'},
