@@ -39,8 +39,8 @@ class App extends Component {
                   I'm a people person who also loves code. I enjoy leveraging my
                   engineering skills to make the internet a less scary place for
                   the folks at home. I live and breathe HTML, CSS, JavaScript
-                  and React, and I've also dabbled with Node, Angular and Ruby
-                  on Rails. If I'm not learning, I'm not happy.
+                  and React, and I've also dabbled with Node, Angular, Ruby on
+                  Rails, and Python. If I'm not learning, I'm not happy.
                 </p>
               </div>
               <div className="social-icons margin top single full-width">
