@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "39b1666681d45a3573c578ce510cb3af",
-    "url": "/static/media/washington_post.39b16666.png"
+    "revision": "989304315d202c7cbdaa",
+    "url": "/static/css/main.e20d2b44.chunk.css"
   },
   {
-    "revision": "dadc8c5091b0241d0908",
-    "url": "/static/css/main.f263988e.chunk.css"
+    "revision": "989304315d202c7cbdaa",
+    "url": "/static/js/main.65b6e854.chunk.js"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/static/media/slick.f97e3bbf.svg"
+    "revision": "fdfcfda2d9b1bf31db52",
+    "url": "/static/js/runtime~main.c5541365.js"
   },
   {
-    "revision": "e2b0962ced8ff0e45143",
-    "url": "/static/js/1.e2b0962c.chunk.js"
+    "revision": "53d1e9b3e5b03489b4c4",
+    "url": "/static/css/2.da6ede35.chunk.css"
   },
   {
-    "revision": "229c360febb4351a89df",
-    "url": "/static/js/runtime~main.229c360f.js"
+    "revision": "53d1e9b3e5b03489b4c4",
+    "url": "/static/js/2.57e0843f.chunk.js"
+  },
+  {
+    "revision": "1cb529bb6f000fb1af346148dd92c8e4",
+    "url": "/static/media/the-atlantic.1cb529bb.png"
   },
   {
     "revision": "8d42fb038d8a6f665aa32be60f895d5d",
@@ -40,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/the_lily.2ce004c1.png"
   },
   {
-    "revision": "dadc8c5091b0241d0908",
-    "url": "/static/js/main.dadc8c50.chunk.js"
+    "revision": "39b1666681d45a3573c578ce510cb3af",
+    "url": "/static/media/washington_post.39b16666.png"
   },
   {
     "revision": "68fc815f5cbc690c813f65100555720b",
@@ -64,23 +68,23 @@ self.__precacheManifest = [
     "url": "/static/media/traindoor.1dbf8e2c.jpg"
   },
   {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/static/media/slick.ced611da.eot"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/static/media/slick.ced611da.eot"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "e2b0962ced8ff0e45143",
-    "url": "/static/css/1.563943ba.chunk.css"
-  },
-  {
-    "revision": "4666a0dad120cdc4d88c1b8cf1cfc6b9",
+    "revision": "ff58eaf171bad62b7467b3508125eccf",
     "url": "/index.html"
   }
 ];
