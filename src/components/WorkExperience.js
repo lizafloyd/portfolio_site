@@ -14,30 +14,33 @@ const WorkExperience = () => (
     <div className="small-7 extra-small-12">
       <h2 className="subtitle border-bottom-yellow">Work Experience</h2>
       <p>
-        My work experience has been quite varied, but it's always had the same
-        unifying themes: working hard, taking ownership, paying attention to
-        detail, and learning unbelievably fast. And that's how I like it.
+        I joined The Atlantic in 2019 to help implement and launch their new
+        paywall. After we launched on time and to as much praise as a paywall is
+        likely to get, I joined the Subscriptions team, which built an account
+        management site using React and a Django-powered API to hook into our
+        Stripe setup. Now, I'm on the Habit team, which has already launched
+        subscriber-only newsletters, and is developing site search and customer
+        personalization capabilities.
       </p>
       <p>
-        The last few years I've worked in the software as a service sector, for
-        content management platform vendors. The work is an interesting mix of
-        product, agency, and consultancy work, so I've worn every hat you can
-        imagine. I've owned projects, joined sales calls, lead teams, faced down
-        timelines, managed client accounts, developed complex renderings - you
-        name it, I've done it. I started out a few years ago as a Junior
-        Developer, and have since held titles as Solutions Engineer, Midlevel
-        Developer, and now as Technical Lead, delivering a full site build out
-        to a client in Europe.
+        Previously, I worked for The Washington Post as part of their software
+        as a service team. We did full-site buildouts for more than a dozen
+        clients in the three years I was on the team, using a proprietary
+        rendering engine to power JSTL—and later React—sites. I got experience
+        with every part of the process, from leading sales meetings, to owning
+        project backlogs, culminating in being Technical Lead for a mid-sized
+        client buildout in Europe.
       </p>
       <p>
-        I've worked primarily with React, HTML, CSS, JavaScript, Webpack,
-        JSP/JSTL, SCSS, Enzyme, Jest, and Regex. If you're interested in some of
-        my work, select a partner logo to the left to see their site.
+        I've worked primarily with React, HTML, CSS, JavaScript, and GraphQL,
+        and have implemented them using a variety of test suites, cloud
+        configurations, and API frameworks. If you're interested in some of my
+        work, select a partner logo to the left to see their site.
       </p>
       <p>
-        Before I was a developer, I worked in fundraising and as a bartender.
-        And I ought to tell you, not to brag, just so you know: I serve a hell
-        of a Budweiser.
+        Before I was a developer, I worked in fundraising and then as a
+        bartender. It might not be strictly relevant to my current career, but
+        it's never a bad thing to make a mean martini.
       </p>
     </div>
   </div>

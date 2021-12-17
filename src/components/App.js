@@ -36,7 +36,7 @@ class App extends Component {
                   lattes taste better.
                 </h2>
                 <p>
-                  I'm a people person who also loves code. I enjoy leveraging my
+                  I'm a people person who loves code. I enjoy leveraging my
                   engineering skills to make the internet a less scary place for
                   the folks at home. I live and breathe HTML, CSS, JavaScript
                   and React, and I've also dabbled with Node, Angular, Ruby on
@@ -90,15 +90,16 @@ class App extends Component {
               <WorkExperience />
             </div>
           </section>
-          <section id="facts" className="container">
-            <FunFacts />
-          </section>
-
-          <section
-            id="curricular"
-            className="background-gray border-gray bottom top padding-horizontal"
-          >
+          <section id="curricular" className="bottom top padding-horizontal">
             <ExtraCurriculars />
+          </section>
+          <section
+            id="facts"
+            className=" bottom top background-gray border-gray"
+          >
+            <div className="container">
+              <FunFacts />
+            </div>
           </section>
           <section id="contact" className="container padding-horizontal">
             <h2 className="subtitle text-center center-border">
@@ -107,8 +108,7 @@ class App extends Component {
             <p>
               New to tech and need a confidence boost? Want to work together on
               a project? Need meetup suggestions? Or just hoping to crib my
-              latte methods? Please feel free to reach out! I would be more than
-              happy to grab a coffee and chat.
+              latte methods? Please reach out!
             </p>
 
             <ContactForm />
