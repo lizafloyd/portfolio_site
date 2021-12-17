@@ -66,11 +66,11 @@ const ExtraCurriculars = () => (
       <div className="small-4 extra-small-12 margin bottom single">
         <Card
           title="Extra Curricular"
-          subtitle="I love contributing to the DC tech community, which is one of the most welcoming groups of crazy kids around."
+          subtitle="The DC tech community is one of the most welcoming groups of crazy kids I've encountered."
           color="blue"
           items={[
             {
-              title: 'DCJS Co-Organizer',
+              title: 'DCJS Co-Organizer, 2017-19',
               description:
                 "Assist with organizing DCJS, one of the district's largest front end meetups. All are welcome!",
               link: 'https://www.meetup.com/DC-JavaScript/',
